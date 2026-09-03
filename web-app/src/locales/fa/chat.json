@@ -1,0 +1,33 @@
+{
+  "welcome": "سلام، چطوری؟",
+  "description": "امروز چطور می‌تونم کمکت کنم؟",
+  "temporaryChat": "گفتگوی موقت",
+  "temporaryChatDescription": "یک گفتگوی موقت شروع کن که در تاریخچه ذخیره نمی‌شود.",
+  "status": {
+    "empty": "گفتگویی یافت نشد"
+  },
+  "sendMessage": "ارسال پیام",
+  "newConversation": "گفتگوی جدید",
+  "clearHistory": "پاک کردن تاریخچه",
+  "embeddings": {
+    "title": "در حال آماده‌سازی اسناد شما",
+    "description": "فایل‌های پیوست‌شده در حال ایندکس شدن هستند تا قابل جستجو و استناد باشند. برای اسناد بزرگ ممکن است کمی طول بکشد."
+  },
+  "actions": {
+    "regenerate": "تولید مجدد پاسخ",
+    "continue": "ادامه تولید پاسخ"
+  },
+  "done": "انجام شد",
+  "webSources": "{{count}} منبع",
+  "reasoning": {
+    "label": "در حال استدلال...",
+    "thinking": "در حال فکر کردن",
+    "usingTool": "{{tool}}...",
+    "showFullTimeline": "نمایش خط‌زمان کامل",
+    "showCurrentStep": "فقط نمایش مرحله فعلی",
+    "thoughtForAWhile": "چند ثانیه فکر کرد",
+    "thoughtFor": "{{duration}} فکر کرد",
+    "workedForAWhile": "چند ثانیه کار کرد",
+    "workedFor": "{{duration}} کار کرد"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "addProvider": "افزودن ارائه‌دهنده",
+  "addOpenAIProvider": "افزودن ارائه‌دهنده سفارشی",
+  "enterNameForProvider": "نام ارائه‌دهنده (مثلاً my-llm-server)",
+  "apiTypeLabel": "قالب API",
+  "apiTypeOpenAI": "سازگار با OpenAI",
+  "apiTypeAnthropic": "سازگار با Anthropic",
+  "baseUrlLabel": "آدرس پایه (Base URL)",
+  "baseUrlPlaceholder": "https://your-endpoint/v1",
+  "baseUrlPlaceholderAnthropic": "https://api.anthropic.com/v1",
+  "apiKeyLabel": "کلید API",
+  "apiKeyPlaceholder": "کلید API خود را وارد کنید",
+  "invalidBaseUrl": "آدرس پایه باید یک URL معتبر http(s) باشد",
+  "globalSettings": "تنظیمات سراسری",
+  "stripReasoning": "حذف استدلال از context",
+  "stripReasoningDesc": "قبل از ارسال دوباره تاریخچه، محتوای فکر کردن/استدلال نوبت‌های قبلی را در همه ارائه‌دهنده‌ها حذف کن. این کار استفاده مجدد از KV-cache را برای مدل‌های محلی بهبود می‌بخشد، اما برخی مدل‌ها (مثل نسخه‌های جدیدتر Qwen) نگه‌داشتن آن را برای استدلال چندنوبتی بهتر توصیه می‌کنند.",
+  "providerAlreadyExists": "ارائه‌دهنده‌ای با نام {{name}} از قبل وجود دارد."
+}

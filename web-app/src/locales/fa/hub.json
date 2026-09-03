@@ -1,0 +1,19 @@
+{
+  "sortNewest": "جدیدترین",
+  "sortMostDownloaded": "پردانلودترین",
+  "newChat": "گفتگوی جدید",
+  "download": "دانلود",
+  "downloadFailed": "شروع دانلود ناموفق بود",
+  "downloaded": "دانلود شد",
+  "loadingModels": "در حال بارگذاری مدل‌ها...",
+  "noModels": "مدلی یافت نشد",
+  "by": "توسط",
+  "downloads": "دانلودها",
+  "variants": "نسخه‌ها",
+  "showVariants": "نمایش نسخه‌ها",
+  "useModel": "استفاده از این مدل",
+  "downloadModel": "دانلود مدل",
+  "tools": "ابزارها",
+  "searchPlaceholder": "جستجوی مدل در Hugging Face...",
+  "resumeUnavailable": "امکان ازسرگیری این دانلود نیست. لطفاً دوباره شروع کنید."
+}

@@ -1,6 +1,6 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "Jan",
+  "productName": "MixGPT",
   "mainBinaryName": "Jan-Desktop",
   "version": "0.8.4",
   "identifier": "jan.ai.app",
@@ -58,7 +58,7 @@
     }
   },
   "bundle": {
-    "publisher": "Menlo Research Pte. Ltd.",
+    "publisher": "MeekiSoft",
     "active": true,
     "createUpdaterArtifacts": false,
     "icon": [

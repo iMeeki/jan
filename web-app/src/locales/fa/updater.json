@@ -1,0 +1,10 @@
+{
+  "newVersion": "نسخه جدید {{version}}",
+  "updateAvailable": "به‌روزرسانی موجود است",
+  "nightlyBuild": "نسخه شبانه (Nightly)",
+  "showReleaseNotes": "نمایش یادداشت‌های انتشار",
+  "hideReleaseNotes": "پنهان کردن یادداشت‌های انتشار",
+  "remindMeLater": "بعداً یادآوری کن",
+  "downloading": "در حال دانلود...",
+  "updateNow": "هم‌اکنون به‌روزرسانی کن"
+}

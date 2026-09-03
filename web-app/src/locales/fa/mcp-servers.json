@@ -1,0 +1,101 @@
+{
+  "editServer": "ویرایش سرور MCP",
+  "addServer": "افزودن سرور MCP",
+  "browserExtension": {
+    "connecting": {
+      "checking": "در حال بررسی وضعیت افزونه..."
+    },
+    "notInstalled": {
+      "title": "MixGPT کارها را در مرورگر شما انجام می‌دهد",
+      "description": "برای دادن دسترسی مرورگر به MixGPT، افزونه را نصب کنید",
+      "getExtension": "دریافت افزونه"
+    }
+  },
+  "serverName": "نام سرور",
+  "enterServerName": "نام سرور را وارد کنید",
+  "command": "دستور",
+  "enterCommand": "دستور را وارد کنید (uvx یا npx)",
+  "arguments": "آرگومان‌ها",
+  "argument": "آرگومان {{index}}",
+  "envVars": "متغیرهای محیطی",
+  "key": "کلید",
+  "value": "مقدار",
+  "save": "ذخیره",
+  "status": "وضعیت",
+  "connected": "متصل",
+  "disconnected": "قطع شده",
+  "deleteServer": {
+    "title": "حذف سرور MCP",
+    "description": "آیا مطمئن هستید که می‌خواهید سرور MCP با نام {{serverName}} را حذف کنید؟ این عملیات قابل بازگشت نیست.",
+    "delete": "حذف",
+    "success": "سرور MCP {{serverName}} با موفقیت حذف شد"
+  },
+  "editJson": {
+    "title": "ویرایش JSON برای سرور MCP: {{serverName}}",
+    "titleAll": "ویرایش JSON همه سرورهای MCP",
+    "placeholder": "پیکربندی JSON را وارد کنید",
+    "errorParse": "خواندن داده اولیه ناموفق بود",
+    "errorPaste": "قالب JSON محتوای چسبانده‌شده نامعتبر است",
+    "errorFormat": "قالب JSON نامعتبر است",
+    "errorServerName": "نام سرور الزامی است و نمی‌تواند خالی باشد",
+    "errorMissingServerNameKey": "ساختار JSON باید به‌صورت {\"serverName\": {config}} باشد - کلید نام سرور وجود ندارد",
+    "errorInvalidType": "نوع '{{type}}' برای سرور '{{serverName}}' نامعتبر است. نوع باید 'stdio'، 'http' یا 'sse' باشد",
+    "save": "ذخیره"
+  },
+  "checkParams": "لطفاً پارامترها را طبق آموزش بررسی کنید.",
+  "title": "سرورهای MCP",
+  "experimental": "آزمایشی",
+  "editAllJson": "ویرایش JSON همه سرورها",
+  "findMore": "سرورهای MCP بیشتری را اینجا پیدا کنید:",
+  "allowPermissions": "اجازه به همه دسترسی‌های ابزار MCP",
+  "allowPermissionsDesc": "در صورت فعال بودن، همه فراخوانی‌های ابزار MCP بدون نمایش پنجره تأیید به‌طور خودکار تأیید می‌شوند. این تنظیم به‌صورت سراسری روی همه گفتگوها، از جمله گفتگوهای جدید، اعمال می‌شود.",
+  "noServers": "سرور MCP یافت نشد",
+  "args": "آرگومان‌ها",
+  "env": "محیط",
+  "serverStatusActive": "سرور {{serverKey}} با موفقیت فعال شد",
+  "serverStatusInactive": "سرور {{serverKey}} با موفقیت غیرفعال شد",
+  "runtimeSettings": {
+    "title": "تنظیمات زمان اجرا",
+    "description": "نحوه مدیریت و تلاش مجدد MixGPT برای سرورهای MCP را پیکربندی کنید.",
+    "toolCallTimeout": "مهلت زمانی فراخوانی ابزار (ثانیه)",
+    "toolCallTimeoutDesc": "حداکثر زمان انتظار برای پاسخ یک ابزار MCP قبل از اتمام مهلت.",
+    "maxToolOutputChars": "حداکثر کاراکترهای خروجی ابزار",
+    "maxToolOutputCharsDesc": "طولانی‌ترین نتیجه ابزاری که در گفتگو نگه داشته می‌شود. هر چیزی فراتر از این کوتاه و به‌عنوان کوتاه‌شده علامت‌گذاری می‌شود، تا یک نتیجه بزرگ context مدل را پر نکند. برای نگه داشتن نتیجه کامل، مقدار را ۰ بگذارید.",
+    "smartToolRouting": "مسیریابی هوشمند ابزار MCP",
+    "smartToolRoutingDesc": "در صورت فعال بودن، MixGPT قبل از بارگذاری ابزارها، سرورهای MCP مرتبط را انتخاب می‌کند. برای بارگذاری همیشگی لیست کامل ابزارهای MCP، غیرفعالش کنید.",
+    "useLightweightRouterModel": "استفاده از یک مدل اختصاصی برای مسیریابی",
+    "useLightweightRouterModelDesc": "وقتی مسیریابی هوشمند فعال است، مرحله مسیریابی را با یک مدل جداگانه (معمولاً کوچک‌تر) به‌جای مدل گفتگو اجرا کن. برای استفاده همیشگی از مدل فعال گفتگو در مسیریابی، خاموشش کن.",
+    "routerModel": "مدل مسیریابی",
+    "routerModelDesc": "ارائه‌دهنده و مدل را در یک مکان انتخاب کنید. فقط مدل‌های سبک لیست می‌شوند تا مسیریابی سریع و کم‌هزینه بماند.",
+    "selectRouterModelPlaceholder": "انتخاب مدل مسیریابی…",
+    "routerModelSearchPlaceholder": "جستجوی مدل‌ها…",
+    "routerModelEmptyList": "مدل سبکی موجود نیست. مدل کوچک‌تری اضافه کنید یا کلیدهای API را در بخش مدل‌ها پیکربندی کنید.",
+    "routerModelEmptySearch": "موردی برای «{{query}}» یافت نشد."
+  },
+  "auth": {
+    "label": "احراز هویت:",
+    "state": {
+      "notApplicable": "لازم نیست",
+      "staticHeader": "هدر Authorization",
+      "authenticated": "احراز هویت شده",
+      "expired": "منقضی شده",
+      "staleResource": "برای آدرس دیگری صادر شده",
+      "unauthenticated": "احراز هویت نشده"
+    },
+    "expiresIn": "در {{duration}} منقضی می‌شود",
+    "authenticate": "ورود",
+    "reauthenticate": "احراز هویت مجدد",
+    "clear": "پاک کردن احراز هویت",
+    "waiting": "در انتظار مرورگر...",
+    "openSignInPage": "باز کردن صفحه ورود",
+    "needsAuth": "{{serverName}} به احراز هویت نیاز دارد",
+    "needsAuthHint": "برای اتصال، وارد این سرور شوید.",
+    "authorized": "وارد {{serverName}} شدید",
+    "authorizeFailed": "ورود به {{serverName}} ناموفق بود",
+    "cleared": "اطلاعات ورود ذخیره‌شده برای {{serverName}} پاک شد",
+    "nothingToClear": "{{serverName}} اطلاعات ورود ذخیره‌شده‌ای نداشت",
+    "clearFailed": "پاک کردن اطلاعات ورود برای {{serverName}} ممکن نشد",
+    "renew": "تمدید نشست",
+    "expiredAgo": "{{duration}} پیش منقضی شد"
+  }
+}

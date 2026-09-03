@@ -1,0 +1,702 @@
+{
+  "htmlArtifact": {
+    "code": "کد",
+    "preview": "پیش‌نمایش",
+    "previewStreaming": "پس از پایان تولید در دسترس است",
+    "unresolvedAssets_one": "۱ منبع (asset) در پیش‌نمایش بارگذاری نمی‌شود. مسیرهای نسبی آدرس پایه‌ای برای حل شدن ندارند.",
+    "unresolvedAssets_other": "{{count}} منبع (asset) در پیش‌نمایش بارگذاری نمی‌شوند. مسیرهای نسبی آدرس پایه‌ای برای حل شدن ندارند."
+  },
+  "assistants": "دستیارها",
+  "hardware": "سخت‌افزار",
+  "mcp-servers": "سرورهای MCP",
+  "local_api_server": "سرور API محلی",
+  "remote_access": "دسترسی از راه دور",
+  "integrations": "یکپارچه‌سازی‌ها",
+  "experimental": "آزمایشی",
+  "claude_code": "Claude Code",
+  "https_proxy": "پراکسی HTTPS",
+  "web_search": "جستجوی وب",
+  "agent_tools": "ابزارهای عامل",
+  "browse": "مرور",
+  "starting": "در حال شروع...",
+  "activeSuffix": " (فعال)",
+  "extensions": "افزونه‌ها",
+  "attachments": "پیوست‌ها",
+  "general": "عمومی",
+  "settings": "تنظیمات",
+  "modelProviders": "ارائه‌دهندگان مدل",
+  "localProviders": "محلی",
+  "remoteProviders": "از راه دور",
+  "manageProviders": "مدیریت ارائه‌دهندگان",
+  "hiddenProviders": "{{count}} غیرفعال",
+  "hideProvider": "پنهان کردن ارائه‌دهنده",
+  "showProvider": "نمایش ارائه‌دهنده",
+  "interface": "رابط کاربری",
+  "appearance": "ظاهر",
+  "privacy": "حریم خصوصی",
+  "keyboardShortcuts": "میانبرها",
+  "home": "خانه",
+  "cowork": "همکاری",
+  "newSession": "نشست جدید",
+  "artifacts": "خروجی‌ها",
+  "customize": "شخصی‌سازی",
+  "local": "محلی",
+  "selectFolder": "انتخاب پوشه",
+  "selectModel": "ابتدا یک مدل انتخاب کنید",
+  "commands": "دستورها",
+  "cmdHelp": "نمایش لیست دستورهای موجود",
+  "cmdClear": "پاک کردن این نشست",
+  "cmdModels": "تغییر مدل فعال",
+  "cmdModelsHint": "عبارت /models را تایپ کنید و یک مدل را از لیست انتخاب کنید",
+  "cmdModelSwitched": "به {{name}} تغییر یافت",
+  "cmdUnknown": "دستور ناشناخته: {{name}}. عبارت /help را امتحان کنید",
+  "cmdBusy": "این کار در حالی که عامل در حال اجراست ممکن نیست",
+  "skills": "مهارت‌ها",
+  "skillsInContext": "مهارت‌های در دسترس عامل در این اجرا",
+  "skillsTitle": "مدیریت مهارت‌ها",
+  "skillsSelectFolder": "ابتدا در صفحه کد یک پوشه پروژه را برای مدیریت مهارت‌های آن انتخاب کنید.",
+  "skillsEmpty": "هنوز مهارتی وجود ندارد",
+  "skillsPickOrNew": "یک مهارت را برای ویرایش انتخاب کنید یا یکی جدید بسازید.",
+  "skillNew": "مهارت جدید",
+  "skillDelete": "حذف مهارت",
+  "skillSave": "ذخیره",
+  "skillSaved": "مهارت ذخیره شد",
+  "skillNameRequired": "نام مهارت الزامی است",
+  "skillNamePlaceholder": "skill-name",
+  "skillContentPlaceholder": "رویه قابل‌استفاده مجدد را با Markdown توصیف کنید…",
+  "skillHubImport": "درون‌ریزی از هاب",
+  "skillHubTitle": "هاب مهارت‌های Anthropic",
+  "skillHubEmpty": "مهارتی در هاب یافت نشد",
+  "skillImport": "درون‌ریزی",
+  "skillReimport": "درون‌ریزی مجدد",
+  "skillImported": "{{name}} درون‌ریزی شد",
+  "sessions": "نشست‌ها",
+  "deleteSession": "حذف نشست",
+  "deleteSessionTitle": "نشست حذف شود؟",
+  "deleteSessionBody": "«{{title}}» و رونوشت آن برای همیشه حذف می‌شود. این عملیات قابل بازگشت نیست.",
+  "newChat": "گفتگوی جدید",
+  "newAgentChat": "گفتگوی عامل جدید",
+  "chats": "گفتگوها",
+  "favorites": "موردعلاقه‌ها",
+  "recents": "اخیرها",
+  "hub": "هاب",
+  "helpSupport": "راهنما و پشتیبانی",
+  "helpUsImproveJan": "به بهبود MixGPT کمک کنید",
+  "analyticsConsentDetail": "ما داده‌های ناشناس را برای درک میزان استفاده از قابلیت‌ها جمع‌آوری می‌کنیم. گفتگوها و اطلاعات شخصی شما هرگز ردیابی نمی‌شوند. می‌توانید این را هر زمان از مسیر تنظیمات > حریم خصوصی تغییر دهید.",
+  "analyticsConsentQuestion": "آیا مایلید به بهبود MixGPT کمک کنید؟",
+  "unstarAll": "حذف همه از موردعلاقه‌ها",
+  "unstar": "حذف از موردعلاقه‌ها",
+  "deleteAll": "حذف همه",
+  "star": "افزودن به موردعلاقه‌ها",
+  "rename": "تغییر نام",
+  "delete": "حذف",
+  "copied": "کپی شد!",
+  "dataFolder": "پوشه داده",
+  "others": "سایر",
+  "language": "زبان",
+  "login": "ورود",
+  "loginWith": "ورود با {{provider}}",
+  "loginFailed": "ورود ناموفق بود",
+  "logout": "خروج",
+  "loggingOut": "در حال خروج...",
+  "loggedOut": "با موفقیت خارج شدید",
+  "logoutFailed": "خروج ناموفق بود",
+  "profile": "پروفایل",
+  "reset": "بازنشانی",
+  "search": "جستجو",
+  "searchThreads": "جستجوی گفتگوها...",
+  "toNavigate": "برای پیمایش",
+  "toSelect": "برای انتخاب",
+  "toClose": "برای بستن",
+  "clearRecent": "پاک کردن",
+  "name": "نام",
+  "cancel": "انصراف",
+  "dismiss": "رد کردن",
+  "create": "ایجاد",
+  "save": "ذخیره",
+  "edit": "ویرایش",
+  "copy": "کپی",
+  "back": "بازگشت",
+  "close": "بستن",
+  "done": "انجام شد",
+  "next": "بعدی",
+  "finish": "پایان",
+  "skip": "رد شدن",
+  "allow": "اجازه بده",
+  "deny": "رد کن",
+  "start": "شروع",
+  "stop": "توقف",
+  "preview": {
+    "loading": "در حال باز کردن…",
+    "unsupported": "MixGPT نمی‌تواند این نوع فایل را نمایش دهد. آن را در برنامه دیگری باز کنید.",
+    "outside": "این فایل دیگر در فضای کاری نشست وجود ندارد.",
+    "tooLarge": "برای پیش‌نمایش خیلی بزرگ است. آن را در برنامه دیگری باز کنید.",
+    "reload": "بارگذاری مجدد",
+    "allowNetwork": "اجازه دسترسی به شبکه",
+    "unresolvedRefs_one": "۱ فایلی که این صفحه به آن لینک داده در پیش‌نمایش بارگذاری نمی‌شود. آن را در مرورگر باز کنید.",
+    "unresolvedRefs_other": "{{count}} فایلی که این صفحه به آن‌ها لینک داده در پیش‌نمایش بارگذاری نمی‌شوند. آن‌ها را در مرورگر باز کنید."
+  },
+  "changes": {
+    "title": "تغییرات عامل",
+    "empty": "فایل‌هایی که عامل می‌نویسد یا ویرایش می‌کند اینجا نمایش داده می‌شوند.",
+    "a11y": "تغییرات عامل: {{files}} فایل، {{additions}} افزوده شده، {{deletions}} حذف شده"
+  },
+  "compactWidth": "عرض فشرده",
+  "fullWidth": "عرض کامل",
+  "dark": "تیره",
+  "light": "روشن",
+  "system": "سیستم",
+  "auto": "خودکار",
+  "english": "انگلیسی",
+  "medium": "متوسط",
+  "newThread": "گفتگوی جدید",
+  "noResultsFound": "نتیجه‌ای یافت نشد",
+  "noThreadsYet": "هنوز گفتگویی وجود ندارد",
+  "noThreadsYetDesc": "یک گفتگوی جدید شروع کنید تا تاریخچه آن اینجا نمایش داده شود.",
+  "downloads": "دانلودها",
+  "downloading": "در حال دانلود",
+  "uploadingAttachments": "در حال بارگذاری پیوست‌ها…",
+  "cancelDownload": "لغو دانلود",
+  "downloadCancelled": "دانلود لغو شد",
+  "downloadComplete": "دانلود کامل شد",
+  "thinking": "در حال فکر کردن...",
+  "thought": "فکر کرد",
+  "callingTool": "در حال فراخوانی ابزار",
+  "completed": "تکمیل شد",
+  "image": "تصویر",
+  "vision": "تصویر",
+  "multimodal": "چندرسانه‌ای",
+  "embeddings": "Embeddings",
+  "tools": "ابزارها",
+  "webSearch": "جستجوی وب",
+  "reasoning": "استدلال",
+  "proactive": "پیش‌کنشگر",
+  "selectAModel": "یک مدل انتخاب کنید",
+  "noToolsAvailable": "ابزاری در دسترس نیست",
+  "noModelsFoundFor": "مدلی برای «{{searchValue}}» یافت نشد",
+  "failedToLoadModels": "بارگذاری مدل‌ها ناموفق بود",
+  "noModels": "مدلی یافت نشد",
+  "noAssistant": "دستیاری نیست",
+  "customAvatar": "آواتار سفارشی",
+  "editAssistant": "ویرایش دستیار",
+  "jan": "MixGPT",
+  "metadata": "فراداده",
+  "regenerate": "تولید مجدد",
+  "threadImage": "تصویر گفتگو",
+  "editMessage": "ویرایش پیام",
+  "deleteMessage": "حذف پیام",
+  "deleteThread": "حذف گفتگو",
+  "renameThread": "تغییر نام گفتگو",
+  "threadTitle": "عنوان گفتگو",
+  "deleteAllThreads": "حذف همه گفتگوها",
+  "allThreadsUnfavorited": "همه گفتگوها از موردعلاقه‌ها خارج شدند",
+  "deleteAllThreadsConfirm": "آیا مطمئن هستید که می‌خواهید همه گفتگوها را حذف کنید؟ این عملیات قابل بازگشت نیست.",
+  "addProvider": "افزودن ارائه‌دهنده",
+  "addOpenAIProvider": "افزودن ارائه‌دهنده OpenAI",
+  "enterNameForProvider": "نامی برای ارائه‌دهنده خود وارد کنید",
+  "providerAlreadyExists": "ارائه‌دهنده‌ای با نام «{{name}}» از قبل وجود دارد. لطفاً نام دیگری انتخاب کنید.",
+  "adjustFontSize": "تنظیم اندازه فونت",
+  "changeLanguage": "تغییر زبان",
+  "editTheme": "ویرایش پوسته",
+  "editCodeBlockStyle": "ویرایش استایل بلوک کد",
+  "editServerHost": "ویرایش میزبان سرور",
+  "pickColorWindowBackground": "انتخاب رنگ پس‌زمینه پنجره",
+  "pickColorAppMainView": "انتخاب رنگ نمای اصلی برنامه",
+  "pickColorAppPrimary": "انتخاب رنگ اصلی برنامه",
+  "pickColorAppAccent": "انتخاب رنگ تأکیدی برنامه",
+  "pickColorAppDestructive": "انتخاب رنگ هشدار برنامه",
+  "apiKeyRequired": "کلید API الزامی است",
+  "enterTrustedHosts": "میزبان‌های مورد اعتماد را وارد کنید",
+  "placeholder": {
+    "chatInput": "هر چیزی از من بپرس..."
+  },
+  "confirm": "تأیید",
+  "continue": "ادامه",
+  "loading": "در حال بارگذاری...",
+  "settingUpJan": "در حال راه‌اندازی MixGPT…",
+  "registeringExtensions": "در حال ثبت افزونه‌ها…",
+  "loadingExtensions": "در حال بارگذاری افزونه‌ها… ({{done}}/{{total}})",
+  "error": "خطا",
+  "success": "موفقیت",
+  "warning": "هشدار",
+  "conversationNotAvailable": "گفتگو در دسترس نیست",
+  "conversationNotAvailableDescription": "گفتگویی که سعی می‌کنید به آن دسترسی پیدا کنید در دسترس نیست یا حذف شده است.",
+  "temporaryChat": "گفتگوی موقت",
+  "temporaryChatTooltip": "گفتگوی موقت در تاریخچه شما ظاهر نمی‌شود",
+  "noResultsFoundDesc": "هیچ گفتگویی مطابق با جستجوی شما پیدا نشد. کلیدواژه دیگری را امتحان کنید.",
+  "searchModels": "جستجوی مدل‌ها...",
+  "searchStyles": "جستجوی استایل‌ها...",
+  "createAssistant": "ایجاد دستیار",
+  "enterApiKey": "کلید API را وارد کنید",
+  "scrollToBottom": "پیمایش به پایین",
+  "generateAiResponse": "تولید پاسخ هوش مصنوعی",
+  "continueAiResponse": "ادامه پاسخ هوش مصنوعی",
+  "addModel": {
+    "title": "افزودن مدل",
+    "modelId": "شناسه مدل",
+    "enterModelId": "شناسه مدل را وارد کنید",
+    "addModel": "افزودن مدل",
+    "description": "یک مدل جدید به ارائه‌دهنده اضافه کنید",
+    "exploreModels": "مشاهده لیست مدل‌های ارائه‌دهنده"
+  },
+  "mcpServers": {
+    "editServer": "ویرایش سرور",
+    "addServer": "افزودن سرور",
+    "serverName": "نام سرور",
+    "enterServerName": "نام سرور را وارد کنید",
+    "command": "دستور",
+    "enterCommand": "دستور را وارد کنید",
+    "arguments": "آرگومان‌ها",
+    "argument": "آرگومان {{index}}",
+    "envVars": "متغیرهای محیطی",
+    "key": "کلید",
+    "value": "مقدار",
+    "save": "ذخیره"
+  },
+  "deleteServer": {
+    "title": "حذف سرور",
+    "delete": "حذف"
+  },
+  "editJson": {
+    "errorParse": "خواندن JSON ناموفق بود",
+    "errorPaste": "چسباندن JSON ناموفق بود",
+    "errorFormat": "قالب JSON نامعتبر است",
+    "titleAll": "ویرایش پیکربندی همه سرورها",
+    "placeholder": "پیکربندی JSON را وارد کنید...",
+    "save": "ذخیره"
+  },
+  "editModel": {
+    "title": "ویرایش مدل: {{modelId}}",
+    "description": "قابلیت‌های مدل را با تغییر گزینه‌های زیر پیکربندی کنید.",
+    "capabilities": "قابلیت‌ها",
+    "tools": "ابزارها",
+    "vision": "تصویر",
+    "embeddings": "Embeddings",
+    "notAvailable": "هنوز در دسترس نیست"
+  },
+  "outOfContextError": {
+    "truncateInput": "کوتاه کردن ورودی",
+    "title": "خطای پایان یافتن حافظه زمینه",
+    "description": "این گفتگو به محدودیت حافظه هوش مصنوعی نزدیک شده، مثل یک تخته‌وایت‌برد که در حال پر شدن است. می‌توانیم اندازه حافظه (context size) را افزایش دهیم تا مطالب بیشتری به خاطر بسپارد، اما ممکن است حافظه بیشتری از سیستم شما مصرف کند. همچنین می‌توانیم ورودی را کوتاه کنیم، یعنی بخشی از تاریخچه گفتگو فراموش می‌شود تا جا برای پیام‌های جدید باز شود.",
+    "increaseContextSizeDescription": "می‌خواهید اندازه context را افزایش دهید؟",
+    "increaseContextSize": "افزایش اندازه Context"
+  },
+  "toolApproval": {
+    "title": "درخواست مجوز ابزار",
+    "description": "دستیار می‌خواهد از <strong>{{toolName}}</strong> استفاده کند",
+    "securityNotice": "فقط ابزارهایی را که به آن‌ها اعتماد دارید اجازه دهید. ابزارها می‌توانند به سیستم و داده‌های شما دسترسی داشته باشند.",
+    "deny": "رد کردن",
+    "allowOnce": "این‌بار اجازه بده",
+    "alwaysAllow": "همیشه اجازه بده"
+  },
+  "deleteModel": {
+    "title": "حذف مدل: {{modelId}}",
+    "description": "آیا مطمئن هستید که می‌خواهید این مدل را حذف کنید؟ این عملیات قابل بازگشت نیست.",
+    "success": "مدل {{modelId}} برای همیشه حذف شد.",
+    "cancel": "انصراف",
+    "delete": "حذف"
+  },
+  "deleteProvider": {
+    "title": "حذف ارائه‌دهنده",
+    "description": "این ارائه‌دهنده و همه مدل‌های آن حذف شود. این عملیات قابل بازگشت نیست.",
+    "success": "ارائه‌دهنده {{provider}} برای همیشه حذف شد.",
+    "confirmTitle": "حذف ارائه‌دهنده: {{provider}}",
+    "confirmDescription": "آیا مطمئن هستید که می‌خواهید این ارائه‌دهنده را حذف کنید؟ این عملیات قابل بازگشت نیست.",
+    "cancel": "انصراف",
+    "delete": "حذف"
+  },
+  "modelSettings": {
+    "title": "تنظیمات مدل - {{modelId}}",
+    "description": "تنظیمات مدل را برای بهینه‌سازی عملکرد و رفتار پیکربندی کنید.",
+    "nglDisabledByFit": "Auto-fit در حال انتخاب لایه‌های GPU است. برای تنظیم دستی، Auto-fit را خاموش کنید.",
+    "samplingDefaults": {
+      "title": "پارامترهای پیش‌فرض نمونه‌برداری",
+      "description": "تنظیمات پیش‌فرض sampler برای این مدل. مگر اینکه با مقادیر هر دستیار یا هر درخواست بازنویسی شود، استفاده می‌شود."
+    },
+    "specDraft": {
+      "section": "رمزگشایی حدسی (Speculative decoding)",
+      "enable": "فعال‌سازی رمزگشایی حدسی",
+      "enableDescription": "چند توکن را در هر مرحله پیش‌نویس کرده و در یک عبور تأیید می‌کند، که تولید را سریع‌تر می‌کند. از سرهای MTP داخلی مدل، یا مدل پیش‌نویس دانلودشده همراه آن (MTP، Eagle3، DFlash یا DSpark) استفاده می‌کند.",
+      "nMax": "حداکثر توکن‌های پیش‌نویس",
+      "nMaxDescription": "حداکثر تعداد توکن‌های پیش‌نویس در هر مرحله. پیش‌فرض ۱۶.",
+      "nMin": "حداقل توکن‌های پیش‌نویس",
+      "nMinDescription": "حداقل تعداد توکن‌های پیش‌نویس در هر مرحله. پیش‌فرض ۰.",
+      "pMin": "حداقل احتمال پیش‌نویس",
+      "pMinDescription": "حداقل احتمال برای پیش‌نویسی حریصانه (۰ تا ۱). پیش‌فرض ۰.۷۵."
+    },
+    "templateKwargs": {
+      "section": "گزینه‌های قالب گفتگو",
+      "description": "گزینه‌های اضافه‌ای که قالب گفتگوی این مدل می‌پذیرد. با هر درخواست به‌عنوان chat_template_kwargs ارسال می‌شود؛ برای تصمیم‌گیری قالب، یک مقدار را در حالت پیش‌فرض بگذارید.",
+      "addCustom": "افزودن گزینه سفارشی",
+      "keyPlaceholder": "نام",
+      "valuePlaceholder": "مقدار",
+      "add": "افزودن",
+      "cancel": "انصراف",
+      "remove": "حذف"
+    }
+  },
+  "dialogs": {
+    "changeDataFolder": {
+      "title": "تغییر محل پوشه داده",
+      "description": "آیا مطمئن هستید که می‌خواهید محل پوشه داده را تغییر دهید؟ این کار همه داده‌های شما را به محل جدید منتقل کرده و برنامه را راه‌اندازی مجدد می‌کند.",
+      "currentLocation": "محل فعلی:",
+      "newLocation": "محل جدید:",
+      "cancel": "انصراف",
+      "changeLocation": "تغییر محل"
+    },
+    "deleteAllThreads": {
+      "title": "حذف همه گفتگوها",
+      "description": "همه گفتگوها حذف خواهند شد. این عملیات قابل بازگشت نیست."
+    },
+    "deleteAllThreadsInProject": {
+      "title": "حذف همه مکالمات",
+      "description": "{{count}} مکالمه در «{{projectName}}» حذف خواهد شد. این عملیات قابل بازگشت نیست."
+    },
+    "deleteThread": {
+      "description": "آیا مطمئن هستید که می‌خواهید این گفتگو را حذف کنید؟ این عملیات قابل بازگشت نیست."
+    },
+    "editMessage": {
+      "title": "ویرایش پیام"
+    },
+    "messageMetadata": {
+      "title": "فراداده پیام"
+    }
+  },
+  "errorDialog": {
+    "titleFallback": "مشکلی پیش آمد",
+    "details": "جزئیات"
+  },
+  "missingDependenciesDialog": {
+    "title": "کتابخانه‌های سیستمی گمشده",
+    "description": "{{backend}} نصب شد اما برخی کتابخانه‌های سیستمی موردنیاز پیدا نشدند. ممکن است به CPU برگردد یا درست اجرا نشود.",
+    "installLabel": "برای رفع این مشکل، موارد زیر را نصب کنید:",
+    "download": "دانلود",
+    "additionalLibraries": "کتابخانه‌های گمشده دیگر:",
+    "missingLibraries": "کتابخانه‌های گمشده:",
+    "showRawLibraries": "نمایش {{count}} نام کتابخانه گمشده"
+  },
+  "projects": {
+    "title": "پروژه‌ها",
+    "new": "پروژه‌های جدید",
+    "addProject": "افزودن پروژه",
+    "addToProject": "افزودن به پروژه",
+    "removeFromProject": "حذف از پروژه",
+    "createNewProject": "ایجاد پروژه جدید",
+    "editProject": "ویرایش پروژه",
+    "deleteProject": "حذف پروژه",
+    "projectName": "نام پروژه",
+    "enterProjectName": "نام پروژه را وارد کنید...",
+    "noProjectsAvailable": "پروژه‌ای موجود نیست",
+    "noProjectsYet": "هنوز پروژه‌ای وجود ندارد",
+    "noProjectsYetDesc": "با کلیک روی دکمه افزودن پروژه، یک پروژه جدید شروع کنید.",
+    "projectNotFound": "پروژه یافت نشد",
+    "projectNotFoundDesc": "پروژه‌ای که دنبال آن هستید وجود ندارد یا حذف شده است.",
+    "selectAssistant": "انتخاب دستیار",
+    "noAssistantAssigned": "دستیاری به این پروژه اختصاص نیافته است",
+    "files": "فایل‌ها",
+    "filesDescription": "PDF، سند یا متن دیگری برای استفاده در این پروژه اضافه کنید.",
+    "uploadingFiles": "در حال پردازش فایل‌ها…",
+    "processButton": "افزودن",
+    "deleteProjectDialog": {
+      "title": "حذف پروژه",
+      "permanentDelete": "این کار همه گفتگوها را برای همیشه حذف می‌کند.",
+      "permanentDeleteWarning": "این عملیات همه گفتگوهای داخل این پروژه را برای همیشه حذف خواهد کرد!",
+      "deleteEmptyProject": "این عملیات پروژه «{{projectName}}» را حذف می‌کند.",
+      "saveThreadsAdvice": "برای نگه داشتن گفتگوها، پیش از حذف آن‌ها را به لیست گفتگوها یا پروژه دیگری منتقل کنید.",
+      "starredWarning": "شما هنوز گفتگوهای موردعلاقه‌ای در این پروژه دارید.",
+      "deleteButton": "حذف",
+      "successWithName": "پروژه «{{projectName}}» با موفقیت حذف شد",
+      "successWithoutName": "پروژه با موفقیت حذف شد",
+      "error": "حذف پروژه ناموفق بود. لطفاً دوباره تلاش کنید.",
+      "ariaLabel": "حذف {{projectName}}"
+    },
+    "addProjectDialog": {
+      "createTitle": "ایجاد پروژه جدید",
+      "editTitle": "ویرایش پروژه",
+      "nameLabel": "نام پروژه",
+      "namePlaceholder": "نام پروژه را وارد کنید...",
+      "assistant": "دستیار",
+      "selectAssistant": "یک دستیار انتخاب کنید (اختیاری)",
+      "noAssistant": "دستیاری نیست",
+      "addAssistant": "افزودن دستیار",
+      "createButton": "ایجاد",
+      "updateButton": "بروزرسانی",
+      "alreadyExists": "پروژه «{{projectName}}» از قبل وجود دارد",
+      "createSuccess": "پروژه «{{projectName}}» با موفقیت ایجاد شد",
+      "updateSuccess": "پروژه «{{projectName}}» با موفقیت بروزرسانی شد"
+    },
+    "noConversationsIn": "مکالمه‌ای در {{projectName}} وجود ندارد",
+    "startNewConversation": "یک مکالمه جدید با {{projectName}} در زیر شروع کنید",
+    "conversationsIn": "مکالمات در {{projectName}}",
+    "conversationsDescription": "برای ادامه گفتگو روی هر مکالمه کلیک کنید، یا یکی جدید در زیر شروع کنید.",
+    "conversation": "مکالمه",
+    "instructions": "دستورالعمل‌ها",
+    "setup": "راه‌اندازی",
+    "instructionsDescription": "لحن و سبک پاسخ را شخصی‌سازی کنید",
+    "manageInstructions": "مدیریت دستورالعمل‌ها",
+    "thread": "گفتگو",
+    "threads": "گفتگوها",
+    "updated": "بروزرسانی شد:",
+    "collapseProject": "جمع کردن پروژه",
+    "expandProject": "باز کردن پروژه",
+    "update": "بروزرسانی",
+    "searchProjects": "جستجوی پروژه‌ها...",
+    "noProjectsFound": "پروژه‌ای یافت نشد",
+    "tryDifferentSearch": "عبارت جستجوی دیگری را امتحان کنید"
+  },
+  "attachmentsIngestion": {
+    "title": "نحوه دریافت پیوست‌ها را انتخاب کنید",
+    "description": "انتخاب کنید که این فایل‌ها مستقیماً در گفتگو گنجانده شوند یا به‌عنوان embeddings ایندکس شوند.",
+    "inline": "درج در گفتگو",
+    "embeddings": "استفاده از embeddings"
+  },
+  "attachmentInjectedIndicator": "در گفتگو درج شد",
+  "attachmentEmbeddedIndicator": "برای RAG جاسازی شد",
+  "viewInjectedContent": "مشاهده محتوای درج‌شده",
+  "injectedContentTitle": "محتوای فایل درج‌شده",
+  "toast": {
+    "allThreadsUnfavorited": {
+      "title": "همه گفتگوها از موردعلاقه‌ها خارج شدند",
+      "description": "همه گفتگوها از موردعلاقه‌های شما حذف شدند."
+    },
+    "deleteAllThreads": {
+      "title": "حذف همه گفتگوها",
+      "description": "همه گفتگوها برای همیشه حذف شدند."
+    },
+    "renameThread": {
+      "title": "تغییر نام گفتگو",
+      "description": "عنوان گفتگو به «{{title}}» تغییر یافت"
+    },
+    "deleteThread": {
+      "title": "حذف گفتگو",
+      "description": "این گفتگو برای همیشه حذف شد."
+    },
+    "errorCopied": {
+      "title": "کپی موفق بود",
+      "description": "اطلاعات خطا در کلیپ‌بورد کپی شد"
+    },
+    "errorCopyFailed": {
+      "title": "کپی ناموفق بود",
+      "description": "کپی کردن اطلاعات خطا در کلیپ‌بورد ناموفق بود"
+    },
+    "editMessage": {
+      "title": "ویرایش پیام",
+      "description": "پیام با موفقیت ویرایش شد. لطفاً منتظر پاسخ مدل بمانید."
+    },
+    "appUpdateDownloaded": {
+      "title": "به‌روزرسانی برنامه دانلود شد",
+      "description": "به‌روزرسانی برنامه با موفقیت دانلود شد."
+    },
+    "appUpdateDownloadFailed": {
+      "title": "دانلود به‌روزرسانی ناموفق بود",
+      "description": "دانلود به‌روزرسانی برنامه ناموفق بود. لطفاً دوباره تلاش کنید."
+    },
+    "downloadComplete": {
+      "title": "دانلود کامل شد",
+      "description": "{{item}} دانلود شد"
+    },
+    "downloadCancelled": {
+      "title": "دانلود لغو شد",
+      "description": "روند دانلود لغو شد"
+    },
+    "downloadFailed": {
+      "title": "دانلود ناموفق بود",
+      "description": "دانلود {{item}} ناموفق بود"
+    },
+    "openSettings": "باز کردن تنظیمات",
+    "downloadTokenRequired": {
+      "title": "توکن Hugging Face لازم است",
+      "description": "این مدل به یک توکن دسترسی Hugging Face نیاز دارد. توکن خود را در تنظیمات اضافه کرده و دوباره تلاش کنید."
+    },
+    "downloadLicenseRequired": {
+      "title": "پذیرش مجوز مدل در Hugging Face",
+      "description": "پیش از دانلود، باید مجوز مدل را در صفحه Hugging Face آن بپذیرید."
+    },
+    "downloadRateLimited": {
+      "title": "محدودیت نرخ توسط Hugging Face",
+      "description": "شما محدود شده‌اید. افزودن یک توکن می‌تواند محدودیت نرخ را افزایش دهد. بعداً دوباره تلاش کنید."
+    },
+    "modelValidationStarted": {
+      "title": "در حال اعتبارسنجی مدل",
+      "description": "مدل «{{modelId}}» با موفقیت دانلود شد. در حال بررسی صحت..."
+    },
+    "modelValidationFailed": {
+      "title": "اعتبارسنجی مدل ناموفق بود",
+      "description": "مدل دانلودشده «{{modelId}}» در بررسی صحت رد شد و حذف گردید. ممکن است فایل خراب یا دستکاری شده باشد."
+    },
+    "downloadAndVerificationComplete": {
+      "title": "دانلود کامل شد",
+      "description": "مدل «{{item}}» با موفقیت دانلود و تأیید شد"
+    },
+    "projectCreated": {
+      "title": "پروژه ایجاد شد",
+      "description": "پروژه «{{projectName}}» با موفقیت ایجاد شد"
+    },
+    "projectRenamed": {
+      "title": "نام پروژه تغییر کرد",
+      "description": "نام پروژه از «{{oldName}}» به «{{newName}}» تغییر یافت"
+    },
+    "projectDeleted": {
+      "title": "پروژه حذف شد",
+      "description": "پروژه «{{projectName}}» با موفقیت حذف شد"
+    },
+    "projectAlreadyExists": {
+      "title": "پروژه از قبل وجود دارد",
+      "description": "پروژه «{{projectName}}» از قبل وجود دارد"
+    },
+    "projectDeleteFailed": {
+      "title": "حذف ناموفق بود",
+      "description": "حذف پروژه ناموفق بود. لطفاً دوباره تلاش کنید."
+    },
+    "threadAssignedToProject": {
+      "title": "گفتگو اختصاص یافت",
+      "description": "گفتگو با موفقیت به «{{projectName}}» اختصاص یافت"
+    },
+    "threadRemovedFromProject": {
+      "title": "گفتگو حذف شد",
+      "description": "گفتگو با موفقیت از «{{projectName}}» حذف شد"
+    },
+    "fileUploaded": {
+      "title": "فایل پردازش شد",
+      "description": "فایل با موفقیت پردازش و ایندکس شد"
+    },
+    "uploadFailed": {
+      "title": "پردازش ناموفق بود",
+      "description": "پردازش فایل ناموفق بود",
+      "subjectThisFile": "این فایل",
+      "pdfMalformedXref": "{{subject}} دارای جدول ارجاع متقابل (cross-reference) نامعتبر PDF است و قابل تجزیه نبود. آن را در یک PDF viewer باز کرده و دوباره ذخیره کنید (File → Print → Save as PDF) و سپس دوباره بارگذاری کنید.",
+      "pdfScanned": "به‌نظر می‌رسد {{subject}} یک PDF اسکن‌شده یا مبتنی بر تصویر است. OCR هنوز پشتیبانی نمی‌شود — لطفاً یک PDF متنی بارگذاری کنید.",
+      "pdfEncrypted": "{{subject}} با رمز عبور محافظت شده است. رمز عبور را حذف کرده و دوباره تلاش کنید.",
+      "pdfUnsupportedFeature": "{{subject}} از یک قابلیت PDF استفاده می‌کند که MixGPT هنوز نمی‌تواند تجزیه کند (مثلاً توابع رنگ/سایه‌زنی PostScript). آن را دوباره ذخیره کنید (File → Print → Save as PDF) و سپس دوباره بارگذاری کنید.",
+      "pdfGeneric": "{{subject}} به‌عنوان PDF قابل تجزیه نبود. ممکن است فایل خراب باشد یا از یک قابلیت پشتیبانی‌نشده PDF استفاده کند.",
+      "fileTooLarge": "{{subject}} خیلی بزرگ است. {{message}}.",
+      "unsupportedType": "نوع فایل «{{type}}» پشتیبانی نمی‌شود.",
+      "ioError": "امکان خواندن {{subject}} نبود: {{message}}",
+      "parseGeneric": "{{subject}} قابل تجزیه نبود: {{message}}",
+      "fallback": "پردازش {{subject}} ناموفق بود."
+    },
+    "fileDeleted": {
+      "title": "فایل حذف شد",
+      "description": "فایل از پروژه حذف شد"
+    },
+    "deleteFailed": {
+      "title": "حذف ناموفق بود",
+      "description": "حذف فایل ناموفق بود"
+    },
+    "fileAlreadyExists": {
+      "title": "فایل از قبل وجود دارد",
+      "description": "این فایل قبلاً به این پروژه پیوست شده است"
+    },
+    "unsupportedFileType": {
+      "title": "نوع فایل پشتیبانی‌نشده",
+      "description": "پسوند فایل «.{{extension}}» برای ارجاع پروژه پشتیبانی نمی‌شود."
+    },
+    "attachmentsDisabledInfo": {
+      "title": "پیوست‌ها غیرفعال است",
+      "description": "پیوست‌ها در تنظیمات غیرفعال شده‌اند"
+    }
+  },
+  "errors": {
+    "fileTooLarge": "فایل خیلی بزرگ است",
+    "fileTooLargeDescription": "{{fileName}} از محدودیت {{maxFileSizeMB}} مگابایت بیشتر است"
+  },
+  "files": {
+    "chunksCount": "{{count}} بخش"
+  },
+  "llamacppBusyOnExit": {
+    "title": "llama.cpp هنوز مشغول است",
+    "description": "یک یا چند مدل به‌موقع تخلیه نشدند. بستن اجباری، llama.cpp را خاتمه می‌دهد و ممکن است پاسخ‌های در حال انجام را قطع کند.",
+    "forceQuit": "بستن اجباری",
+    "forcing": "در حال بستن اجباری…",
+    "shuttingDown": "در حال خاموش شدن…"
+  },
+  "duration": {
+    "seconds": "{{count}} ثانیه",
+    "minutes": "{{count}} دقیقه",
+    "hours": "{{count}} ساعت"
+  },
+  "collapse": "جمع کردن",
+  "expand": "باز کردن",
+  "todoPanelTitle": "پیشرفت",
+  "todoPanelEmpty": "هنوز فهرست کاری وجود ندارد.",
+  "artifactOpenPreview": "باز کردن پیش‌نمایش",
+  "artifactOpenExternal": "باز کردن",
+  "artifactMoreActions": "عملیات بیشتر",
+  "artifactShowInFolder": "نمایش در پوشه",
+  "skillsUsedLabel": "مهارت‌های استفاده‌شده",
+  "skillsUsed": "مهارت‌های استفاده‌شده: {{skills}}",
+  "artifactsAll": "همه",
+  "artifactsEmpty": "هنوز چیزی تولید نشده است. خروجی‌های اجرای Cowork اینجا نمایش داده می‌شوند.",
+  "artifactsNoMatch": "خروجی‌ای مطابقت ندارد.",
+  "artifactsSearch": "جستجوی خروجی‌ها",
+  "artifactsShowMore": "نمایش {{count}} مورد دیگر",
+  "workspace": {
+    "readsFrom": "می‌خواند از",
+    "readOnly": "فقط‌خواندنی",
+    "footnote": "عامل فقط این پوشه را می‌خواند. هیچ‌چیز داخل آن هرگز تغییر نمی‌کند.",
+    "footnoteEmpty": "یک پوشه پیوست کنید تا عامل بتواند پروژه شما را بخواند. باز هم چیزی در آن تغییر نمی‌کند.",
+    "attach": "پیوست کردن پوشه",
+    "change": "تغییر پوشه",
+    "detach": "جدا کردن پوشه",
+    "open": "باز کردن",
+    "reveal": "نمایش در فایندر/اکسپلورر",
+    "missing": "این پوشه دیگر وجود ندارد. پوشه دیگری پیوست کنید.",
+    "a11yWithFolder": "پوشه پروژه {{folder}}، به‌صورت فقط‌خواندنی پیوست شده. آن را تغییر دهید یا جدا کنید.",
+    "a11yNoFolder": "پوشه پروژه‌ای پیوست نشده است. یکی پیوست کنید."
+  },
+  "coworkEmpty": {
+    "title": "روی چه چیزی کار می‌کنیم؟",
+    "subtitleSandbox": "یک وظیفه به MixGPT بدهید. فایل‌ها را می‌خواند و می‌نویسد، دستورها را اجرا می‌کند، و مراحل را خودش طی می‌کند.",
+    "subtitleFolder": "یک وظیفه به MixGPT بدهید. {{folder}} را بدون تغییر چیزی در آن می‌خواند و از آنجا خودش کار می‌کند.",
+    "try": "امتحان کنید",
+    "sandbox": {
+      "first": "یک اسکریپت پایتون بنویس که فایل‌ها را بر اساس تاریخ گرفته‌شدن‌شان تغییرنام دهد",
+      "second": "یک داشبورد تک‌صفحه‌ای از یک CSV که می‌چسبانم بساز",
+      "third": "یک README برای پروژه‌ای که توصیف می‌کنم بنویس"
+    },
+    "folder": {
+      "first": "توضیح بده {{folder}} چطور ساخته شده",
+      "second": "همه TODOها را در {{folder}} پیدا کن و بر اساس بخش دسته‌بندی کن",
+      "third": "برای بخشی از {{folder}} که نشان می‌دهم تست بنویس"
+    }
+  },
+  "sandbox": {
+    "noTerminal": "بدون ترمینال",
+    "a11y": "اجرای دستورها غیرفعال است. جزئیات.",
+    "title": "اجرای دستورها غیرفعال است",
+    "body": "MixGPT اجازه می‌دهد عامل دستورهای شل را فقط زمانی اجرا کند که سیستم شما بتواند آن‌ها را محدود کند. sandbox‌ای اینجا در دسترس نیست، بنابراین عامل می‌تواند فایل‌ها را در sandbox خودش بخواند، بنویسد و ویرایش کند — اما چیزی اجرا نمی‌کند.",
+    "fixLinux": "لینوکس از bubblewrap استفاده می‌کند. آن را نصب کرده و سپس MixGPT را دوباره راه‌اندازی کنید.",
+    "fixMac": "macOS از sandbox داخلی در /usr/bin/sandbox-exec استفاده می‌کند. پس از در دسترس بودن آن، MixGPT را دوباره راه‌اندازی کنید.",
+    "fixWindows": "ویندوز از AppContainer استفاده می‌کند. برای امتحان دوباره، MixGPT را دوباره راه‌اندازی کنید.",
+    "recheck": "بررسی مجدد"
+  },
+  "planMode": {
+    "label": "طرح",
+    "tooltipOff": "ابتدا طرح بریز — عامل می‌خواند و پیشنهاد می‌دهد، بدون نوشتن.",
+    "tooltipOn": "در حال طرح‌ریزی. برای اینکه عامل فایل‌ها را بنویسد، این را خاموش کنید.",
+    "onAnnounce": "حالت طرح فعال است",
+    "placeholder": "درخواست یک طرح بده. عامل هیچ فایلی را تغییر نمی‌دهد."
+  },
+  "budget": {
+    "steps": "مرحله {{step}}/{{max}}",
+    "stoppedSteps": "در {{max}} مرحله متوقف شد. عامل هنوز کارش را تمام نکرده.",
+    "keepGoing": "ادامه بده",
+    "stoppedTokens": "متوقف شد — این نشست به سقف توکن خود رسید.",
+    "compact": "فشرده‌سازی",
+    "newSession": "نشست جدید"
+  },
+  "run": {
+    "stopped": "متوقف شد.",
+    "failed": "اجرا زودتر متوقف شد.",
+    "tryAgain": "دوباره تلاش کن"
+  },
+  "modelNoTools": "{{model}} نمی‌تواند ابزار فراخوانی کند، پس نمی‌تواند به‌عنوان عامل عمل کند. یک مدل ابزار-فراخوان انتخاب کنید.",
+  "askContinue": "ادامه",
+  "askNext": "سؤال بعدی",
+  "askPrev": "سؤال قبلی",
+  "askRecommended": "پیشنهادی",
+  "askSelectedCount": "{{count}} انتخاب شد",
+  "askSomethingElse": "چیز دیگری",
+  "askSomethingElsePlaceholder": "پاسخ خودتان را تایپ کنید",
+  "submit": "ارسال"
+}

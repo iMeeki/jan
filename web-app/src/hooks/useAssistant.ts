@@ -29,7 +29,7 @@ const setLastUsedAssistantId = (assistantId: string) => {
 
 export const defaultAssistant: Assistant = {
   id: 'jan',
-  name: 'Jan',
+  name: 'MixGPT',
   created_at: 1747029866.542,
   parameters: {},
   avatar: '👋',
