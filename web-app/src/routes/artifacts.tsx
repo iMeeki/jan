@@ -134,7 +134,7 @@ function ArtifactsPage() {
       {/* Search in the header, dropdown filter on the right — the hub page's
           layout, so this reads as part of Jan rather than its own thing. */}
       <HeaderPage>
-        <div className="relative z-20 flex h-10 w-full items-center justify-between py-3 pr-3">
+        <div className="relative z-20 flex h-10 w-full items-center justify-between py-3 pe-3">
           <div className="flex w-full items-center gap-2">
             <IconSearch size={14} className="shrink-0 text-muted-foreground" />
             <input
@@ -148,7 +148,7 @@ function ArtifactsPage() {
             <DropdownMenuTrigger asChild>
               <Button variant="outline" size="sm" className="shrink-0">
                 {group ?? t('common:artifactsAll')}
-                <ChevronsUpDown className="ml-2 size-4 shrink-0 text-muted-foreground" />
+                <ChevronsUpDown className="ms-2 size-4 shrink-0 text-muted-foreground" />
               </Button>
             </DropdownMenuTrigger>
             <DropdownMenuContent side="bottom" align="end">
@@ -226,7 +226,7 @@ function ArtifactsPage() {
                         <button
                           type="button"
                           onClick={() => void serviceHub.opener().openPath(abs)}
-                          className="flex items-center gap-1.5 rounded-l-md px-2.5 py-1.5 text-xs hover:bg-accent"
+                          className="flex items-center gap-1.5 rounded-s-md px-2.5 py-1.5 text-xs hover:bg-accent"
                           title={t('common:artifactOpenExternal')}
                         >
                           <SquareArrowOutUpRight
@@ -239,7 +239,7 @@ function ArtifactsPage() {
                             <button
                               type="button"
                               aria-label={t('common:artifactMoreActions')}
-                              className="rounded-r-md border-l px-1.5 py-1.5 hover:bg-accent"
+                              className="rounded-e-md border-s px-1.5 py-1.5 hover:bg-accent"
                             >
                               <ChevronsUpDown
                                 size={13}

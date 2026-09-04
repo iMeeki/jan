@@ -308,7 +308,7 @@ export const ChainOfThoughtText = memo(
       )}
       {...props}
     >
-      <div className="ml-2 pl-4 border-l-2 border-dotted">
+      <div className="ms-2 ps-4 border-s-2 border-dotted">
         <Streamdown animate={true} animationDuration={500}>
           {children}
         </Streamdown>
@@ -354,7 +354,7 @@ export const ChainOfThoughtStep = memo(
           {label}
         </span>
       </div>
-      {children && <div className="ml-6">{children}</div>}
+      {children && <div className="ms-6">{children}</div>}
     </div>
   )
 )

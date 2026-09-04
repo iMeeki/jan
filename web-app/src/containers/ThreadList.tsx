@@ -162,7 +162,7 @@ const ThreadItem = memo(
                 <span className={cn("block truncate", isSelected && "font-medium text-primary")} title={thread.title || t('common:newThread')}>{thread.title || t('common:newThread')}</span>
               </div>
               {currentProjectId && lastUserMessageText && (
-                <div className="text-muted-foreground text-xs mt-1 line-clamp-1 pr-10">
+                <div className="text-muted-foreground text-xs mt-1 line-clamp-1 pe-10">
                   {lastUserMessageText}
                 </div>
               )}
@@ -181,7 +181,7 @@ const ThreadItem = memo(
           <DropdownMenuTrigger asChild>
             <SidebarMenuAction
               showOnHover
-              className={cn("hover:bg-sidebar-foreground/8", currentProjectId && 'mt-4 mr-2')}
+              className={cn("hover:bg-sidebar-foreground/8", currentProjectId && 'mt-4 me-2')}
             >
               <MoreHorizontal />
               <span className="sr-only">More</span>

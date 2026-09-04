@@ -77,7 +77,7 @@ const ErrorSection = ({
 
 const LoadingSection = ({ t }: { t: (key: string) => string }) => (
   <div className="flex items-center justify-center px-3 py-3 text-sm text-muted-foreground">
-    <IconLoader2 className="h-4 w-4 animate-spin mr-2 text-muted-foreground" />
+    <IconLoader2 className="h-4 w-4 animate-spin me-2 text-muted-foreground" />
     <span className="text-sm text-muted-foreground">{t('common:loading')}</span>
   </div>
 )
@@ -405,7 +405,7 @@ export function ModelCombobox({
           onClick={handleInputClick}
           placeholder={placeholder}
           disabled={disabled}
-          className="pr-16"
+          className="pe-16"
           autoComplete="off"
           autoCorrect="off"
           autoCapitalize="off"
@@ -413,7 +413,7 @@ export function ModelCombobox({
         />
 
         {/* Input action buttons */}
-        <div className="absolute right-1 top-1/2 -translate-y-1/2 flex gap-1">
+        <div className="absolute end-1 top-1/2 -translate-y-1/2 flex gap-1">
           {onRefresh && (
             <Button
               variant="ghost"

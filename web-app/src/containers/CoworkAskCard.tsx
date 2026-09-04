@@ -148,7 +148,7 @@ export function CoworkAskCard({
             type="button"
             onClick={decline}
             aria-label={t('common:close')}
-            className="ml-0.5 rounded p-0.5 hover:text-main-view-fg"
+            className="ms-0.5 rounded p-0.5 hover:text-main-view-fg"
           >
             <X size={14} />
           </button>
@@ -170,7 +170,7 @@ export function CoworkAskCard({
               <span className="min-w-0 flex-1">
                 <span className="text-[13px] leading-5">{option.label}</span>
                 {question.recommended === i && (
-                  <span className="ml-1.5 text-[11px] text-main-view-fg/45">
+                  <span className="ms-1.5 text-[11px] text-main-view-fg/45">
                     {t('common:askRecommended')}
                   </span>
                 )}
@@ -219,7 +219,7 @@ export function CoworkAskCard({
             ? t('common:askSelectedCount', { count: picks.filter((p) => p !== OTHER).length })
             : null}
         </span>
-        <div className="ml-auto flex items-center gap-1.5">
+        <div className="ms-auto flex items-center gap-1.5">
           <Button variant="ghost" size="sm" className="h-7" onClick={decline}>
             {t('common:skip')}
           </Button>

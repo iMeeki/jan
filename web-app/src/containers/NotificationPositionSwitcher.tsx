@@ -42,7 +42,7 @@ export function NotificationPositionSwitcher() {
           title={t('settings:interface.notificationPosition')}
         >
           {t(positionLabelKey(notificationPosition))}
-          <ChevronsUpDown className="size-4 shrink-0 text-muted-foreground ml-2" />
+          <ChevronsUpDown className="size-4 shrink-0 text-muted-foreground ms-2" />
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end">

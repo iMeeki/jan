@@ -259,8 +259,8 @@ function LocalAPIServerContent() {
       <HeaderPage>
         <div
           className={cn(
-            'flex items-center justify-between w-full mr-2 pr-3',
-            !IS_MACOS && 'pr-30'
+            'flex items-center justify-between w-full me-2 pe-3',
+            !IS_MACOS && 'pe-30'
           )}
         >
           <span className="font-medium text-base font-studio">
@@ -416,7 +416,7 @@ function LocalAPIServerContent() {
       </HeaderPage>
       <div className="flex h-[calc(100%-60px)]">
         <SettingsMenu />
-        <div className="flex-1 flex flex-col min-h-0 pl-0">
+        <div className="flex-1 flex flex-col min-h-0 ps-0">
           <div className="flex-1 overflow-y-auto p-4 pt-0">
             <div className="flex flex-col justify-between gap-4 gap-y-3 w-full">
               {/* General Settings */}
@@ -473,7 +473,7 @@ function LocalAPIServerContent() {
                                 'settings:localApiServer.defaultModelPlaceholder'
                               )}
                           </span>
-                          <ChevronsUpDown className="size-4 shrink-0 text-muted-foreground ml-2" />
+                          <ChevronsUpDown className="size-4 shrink-0 text-muted-foreground ms-2" />
                         </Button>
                       </DropdownMenuTrigger>
                       <DropdownMenuContent align="end" className="w-64 max-h-60 overflow-y-auto">
@@ -562,7 +562,7 @@ function LocalAPIServerContent() {
                     onClick={handleOpenLogs}
                     className="text-muted-foreground hover:text-foreground"
                   >
-                    <IconExternalLink size={14} className="mr-1" />
+                    <IconExternalLink size={14} className="me-1" />
                     Open in New Window
                   </Button>
                 </div>

@@ -58,7 +58,7 @@ export function CoworkArtifactCard({
           <button
             type="button"
             onClick={() => void serviceHub.opener().openPath(abs)}
-            className="flex items-center gap-1.5 rounded-l-md px-2.5 py-1.5 text-xs hover:bg-accent"
+            className="flex items-center gap-1.5 rounded-s-md px-2.5 py-1.5 text-xs hover:bg-accent"
           >
             <SquareArrowOutUpRight size={13} className="text-muted-foreground" />
             {t('common:artifactOpenExternal')}
@@ -68,7 +68,7 @@ export function CoworkArtifactCard({
               <button
                 type="button"
                 aria-label={t('common:artifactMoreActions')}
-                className="rounded-r-md border-l px-1.5 py-1.5 hover:bg-accent"
+                className="rounded-e-md border-s px-1.5 py-1.5 hover:bg-accent"
               >
                 <ChevronDown size={13} className="text-muted-foreground" />
               </button>

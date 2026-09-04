@@ -222,7 +222,7 @@ export const ChainOfThoughtGroup = memo(
         </div>
         {!isReasoningAtBottom && (
           <Button
-            className="absolute bottom-2 left-[50%] translate-x-[-50%] rounded-full size-7 z-10"
+            className="absolute bottom-2 start-[50%] translate-x-[-50%] rounded-full size-7 z-10"
             onClick={onReasoningScrollToBottom}
             size="icon"
             type="button"

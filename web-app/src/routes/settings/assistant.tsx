@@ -72,7 +72,7 @@ function AssistantContent() {
   return (
     <div className="flex flex-col h-svh w-full">
       <HeaderPage>
-        <div className={cn("flex items-center justify-between w-full mr-2 pr-3", !IS_MACOS && "pr-30")}>
+        <div className={cn("flex items-center justify-between w-full me-2 pe-3", !IS_MACOS && "pe-30")}>
           <span className="font-medium text-base font-studio">
             {t('common:settings')}
           </span>
@@ -106,7 +106,7 @@ function AssistantContent() {
                         <span className={cn('truncate')}>
                           {defaultAssistant?.name ?? t('assistants:lastUsed')}
                         </span>
-                        <ChevronsUpDown className="size-4 shrink-0 text-muted-foreground ml-2" />
+                        <ChevronsUpDown className="size-4 shrink-0 text-muted-foreground ms-2" />
                       </Button>
                     </DropdownMenuTrigger>
                     <DropdownMenuContent align="end" className="w-40 max-h-80">
@@ -164,7 +164,7 @@ function AssistantContent() {
                       )}
                     </div>
                     {assistant.description && (
-                      <p className="text-xs text-muted-foreground line-clamp-1 pr-12 mt-0.5">
+                      <p className="text-xs text-muted-foreground line-clamp-1 pe-12 mt-0.5">
                         {assistant.description}
                       </p>
                     )}

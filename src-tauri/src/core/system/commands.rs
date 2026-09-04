@@ -869,7 +869,7 @@ fn jan_cli_bin_dir_windows() -> Result<PathBuf, String> {
         std::env::var("LOCALAPPDATA").map_err(|_| "Cannot determine LOCALAPPDATA".to_string())?;
     Ok(PathBuf::from(local_app_data)
         .join("Programs")
-        .join("Jan")
+        .join("MixGPT")
         .join("resources")
         .join("bin"))
 }

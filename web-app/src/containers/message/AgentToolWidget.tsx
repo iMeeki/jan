@@ -106,7 +106,7 @@ export const TerminalWidget = memo(
           {result?.exit !== undefined && (
             <span
               className={cn(
-                'ml-auto shrink-0 rounded px-1.5 py-0.5 font-mono',
+                'ms-auto shrink-0 rounded px-1.5 py-0.5 font-mono',
                 failed
                   ? 'bg-destructive/10 text-destructive'
                   : 'bg-primary/10 text-primary'
@@ -116,7 +116,7 @@ export const TerminalWidget = memo(
             </span>
           )}
           {result?.signaled && (
-            <span className="ml-auto shrink-0 rounded bg-destructive/10 px-1.5 py-0.5 text-destructive">
+            <span className="ms-auto shrink-0 rounded bg-destructive/10 px-1.5 py-0.5 text-destructive">
               {t('tools:toolCall.terminated')}
             </span>
           )}

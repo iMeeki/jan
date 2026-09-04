@@ -72,7 +72,7 @@ const RagCitationItem = memo(
         {typeof c.chunk_file_order === 'number' && (
           <span className="text-muted-foreground">#{c.chunk_file_order}</span>
         )}
-        <span className="ml-auto rounded bg-muted px-1.5 py-0.5 font-mono text-[10px] text-muted-foreground">
+        <span className="ms-auto rounded bg-muted px-1.5 py-0.5 font-mono text-[10px] text-muted-foreground">
           {formatScore(c.score)}
         </span>
         <ChevronRightIcon
@@ -122,7 +122,7 @@ const WebCitationItem = memo(({ c }: { c: WebCitation }) => {
         >
           {c.title || host}
         </a>
-        <span className="ml-auto truncate text-[10px] text-muted-foreground">
+        <span className="ms-auto truncate text-[10px] text-muted-foreground">
           {host}
         </span>
         {typeof c.score === 'number' && (
@@ -212,7 +212,7 @@ export const Citations = memo(
       <h4 className="font-medium text-muted-foreground text-xs uppercase tracking-wide">
         {heading}
         {payload.query && (
-          <span className="ml-2 normal-case font-normal text-muted-foreground/70">
+          <span className="ms-2 normal-case font-normal text-muted-foreground/70">
             for &ldquo;{payload.query}&rdquo;
           </span>
         )}

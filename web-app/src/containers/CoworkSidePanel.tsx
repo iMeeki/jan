@@ -55,7 +55,7 @@ export function CoworkSidePanel({
   return (
     <aside
       className={cn(
-        'relative flex h-full shrink-0 flex-col border-l bg-main-view',
+        'relative flex h-full shrink-0 flex-col border-s bg-main-view',
         expanded ? 'w-[32rem] max-w-[60%]' : ''
       )}
       style={expanded ? undefined : { width: `${width}px` }}
@@ -65,7 +65,7 @@ export function CoworkSidePanel({
         role="separator"
         aria-orientation="vertical"
         onMouseDown={onMouseDown}
-        className="absolute inset-y-0 left-0 z-10 w-1 cursor-col-resize bg-main-view-fg/0 transition-colors hover:bg-main-view-fg/20"
+        className="absolute inset-y-0 start-0 z-10 w-1 cursor-col-resize bg-main-view-fg/0 transition-colors hover:bg-main-view-fg/20"
       />
       <div className="flex h-11 shrink-0 items-center gap-2 border-b px-3">
         {leading}

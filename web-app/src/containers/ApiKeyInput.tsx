@@ -79,14 +79,14 @@ export function ApiKeyInput({
         onChange={handleChange}
         onBlur={handleBlur}
         className={cn(
-          'w-full text-sm pr-16',
+          'w-full text-sm pe-16',
           hasError &&
             'border border-destructive focus:border-destructive focus:ring-destructive',
           isServerRunning && 'opacity-50 pointer-events-none'
         )}
         placeholder={t('common:enterApiKey')}
       />
-      <div className="absolute right-2 top-1/2 transform -translate-y-1/2 flex items-center gap-1">
+      <div className="absolute end-2 top-1/2 transform -translate-y-1/2 flex items-center gap-1">
         <button
           onClick={() => setShowPassword(!showPassword)}
           className="p-1 rounded hover:bg-secondary/50 text-muted-foreground"
@@ -108,7 +108,7 @@ export function ApiKeyInput({
         </button>
       </div>
       {hasError && (
-        <p className="text-destructive text-xs mt-1 absolute -bottom-5 left-0">
+        <p className="text-destructive text-xs mt-1 absolute -bottom-5 start-0">
           {error}
         </p>
       )}

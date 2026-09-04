@@ -592,7 +592,7 @@ function CoworkPage() {
   return (
     <div className="flex flex-col h-[calc(100dvh-(env(safe-area-inset-bottom)+env(safe-area-inset-top)))]">
       <HeaderPage>
-        <div className="flex items-center justify-between w-full pr-2">
+        <div className="flex items-center justify-between w-full pe-2">
           <DropdownModelProvider useLastUsedModel />
         </div>
       </HeaderPage>
@@ -726,7 +726,7 @@ function CoworkPage() {
                         )
                       }
                     />
-                    <div className="ml-auto flex items-center">
+                    <div className="ms-auto flex items-center">
                       <SkillSelector folder={folder} />
                     </div>
                   </>

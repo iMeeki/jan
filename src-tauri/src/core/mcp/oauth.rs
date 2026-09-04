@@ -40,7 +40,7 @@ const EXPIRY_SKEW: Duration = Duration::from_secs(60);
 
 /// Client name sent during dynamic registration; what the user sees on the
 /// provider's consent screen.
-const CLIENT_NAME: &str = "Jan";
+const CLIENT_NAME: &str = "MixGPT";
 
 /// Marker the desktop's `activate_mcp_server` prefixes onto an error the user
 /// fixes by signing in, so the settings UI can offer an `Authenticate` button

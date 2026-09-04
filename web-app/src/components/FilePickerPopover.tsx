@@ -155,7 +155,7 @@ export function FilePickerPopover({
             {' '}for <span className="font-mono font-medium text-foreground/70">@{query}</span>
           </span>
         )}
-        <span className="ml-auto text-[10px] opacity-60">
+        <span className="ms-auto text-[10px] opacity-60">
           ↑↓ navigate · Tab/Enter select · Esc dismiss
         </span>
       </div>

@@ -96,7 +96,7 @@ const STREAMING_COMPONENTS: Components = { code: StreamingCode }
 
 const ZWSP = '​'
 
-// "word**,**" is neither left- nor right-flanking per CommonMark, so the markers
+// "word**,**" is neither start- nor end-flanking per CommonMark, so the markers
 // render literally; a ZWSP just inside restores flanking (U+200B is treated as
 // non-punctuation). Runs after math/code are masked, so '_'/'*' subscripts never
 // get a ZWSP — that made KaTeX warn "Unrecognized Unicode character 8203".

@@ -904,7 +904,7 @@ export const ImportLlamacppModelDialog = ({
               isValidatingDraft
             }
           >
-            {importing && <IconLoader2 className="mr-2 size-4 animate-spin" />}
+            {importing && <IconLoader2 className="me-2 size-4 animate-spin" />}
             {importing ? 'Importing...' : 'Import Model'}
           </Button>
         </div>

@@ -169,7 +169,7 @@ export function McpRouterModelPicker({
               className="text-sm font-normal outline-0 w-full bg-transparent"
             />
             {searchValue.length > 0 && (
-              <div className="absolute right-2 top-0 bottom-0 flex items-center justify-center">
+              <div className="absolute end-2 top-0 bottom-0 flex items-center justify-center">
                 <IconX
                   size={16}
                   className="text-muted-foreground cursor-pointer"
@@ -233,7 +233,7 @@ export function McpRouterModelPicker({
                               </span>
                               <div className="flex-1" />
                               {capabilities.length > 0 && (
-                                <div className="shrink-0 -mr-1.5">
+                                <div className="shrink-0 -me-1.5">
                                   <Capabilities capabilities={capabilities} />
                                 </div>
                               )}

@@ -57,7 +57,7 @@ const Capabilities = memo(function Capabilities({ capabilities }: CapabilitiesPr
                 <Tooltip>
                   <TooltipTrigger asChild>
                     <span
-                      className="flex items-center gap-1 size-5 hover:bg-secondary rounded text-muted-foreground justify-center last:mr-1 transition-all"
+                      className="flex items-center gap-1 size-5 hover:bg-secondary rounded text-muted-foreground justify-center last:me-1 transition-all"
                     >
                       {icon}
                     </span>

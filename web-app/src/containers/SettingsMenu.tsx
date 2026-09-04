@@ -257,7 +257,7 @@ const SettingsMenu = () => {
           <div className="mt-4">
             <span className="px-2 text-xs font-semibold uppercase tracking-wider text-muted-foreground">
               {t('common:integrations')}
-              <span className="text-[11px] capitalize ml-2 font-medium px-2 py-0.5 rounded-full bg-blue-500/20 text-blue-600 dark:text-blue-400">
+              <span className="text-[11px] capitalize ms-2 font-medium px-2 py-0.5 rounded-full bg-blue-500/20 text-blue-600 dark:text-blue-400">
                 {t('common:experimental')}
               </span>
             </span>
@@ -277,7 +277,7 @@ const SettingsMenu = () => {
 
           {/* Model Providers section */}
           <div className="mt-4">
-            <div className="flex items-center justify-between pl-2">
+            <div className="flex items-center justify-between ps-2">
               <span className="text-xs font-semibold uppercase tracking-wider text-muted-foreground">
                 {t('common:modelProviders')}
               </span>

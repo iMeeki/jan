@@ -30,7 +30,7 @@ export const WebSourcesRow = memo(
         <button
           type="button"
           onClick={() => setExpanded((v) => !v)}
-          className="inline-flex items-center gap-2 rounded-full border bg-card/40 py-1 pl-1.5 pr-2.5 text-xs text-muted-foreground transition-colors hover:bg-card/70"
+          className="inline-flex items-center gap-2 rounded-full border bg-card/40 py-1 ps-1.5 pe-2.5 text-xs text-muted-foreground transition-colors hover:bg-card/70"
           aria-expanded={expanded}
         >
           <span className="flex -space-x-1.5">

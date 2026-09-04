@@ -276,7 +276,7 @@ function GroupBlock({
           <IconTrash size={16} className="text-destructive" />
         </Button>
       </div>
-      <div className="space-y-2 pl-2 border-l border-border/40">
+      <div className="space-y-2 ps-2 border-s border-border/40">
         {group.members
           .filter((k) => k in params)
           .map((memberKey) => {
@@ -360,7 +360,7 @@ function AddParameterMenu({
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
         <Button variant="outline" size="sm" className="w-full justify-start">
-          <IconPlus size={14} className="mr-1" />
+          <IconPlus size={14} className="me-1" />
           Add parameter
         </Button>
       </DropdownMenuTrigger>
@@ -385,7 +385,7 @@ function AddParameterMenu({
                       entry.support.maybeBy.length > 0 && (
                         <IconAlertTriangle
                           size={11}
-                          className="text-amber-500 ml-auto"
+                          className="text-amber-500 ms-auto"
                         />
                       )}
                   </div>

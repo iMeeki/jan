@@ -89,7 +89,7 @@ function ModelProviders() {
   return (
     <div className="flex flex-col h-svh w-full">
       <HeaderPage>
-        <div className={cn("flex items-center justify-between w-full mr-2 pr-3", !IS_MACOS && "pr-30")}>
+        <div className={cn("flex items-center justify-between w-full me-2 pe-3", !IS_MACOS && "pe-30")}>
           <span className='font-medium text-base font-studio'>{t('common:settings')}</span>
           <AddProviderDialog onCreateProvider={createProvider}>
             <Button

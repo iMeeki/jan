@@ -24,7 +24,7 @@ export default function AttachmentIngestionDialog() {
           <DialogTitle>
             {t('common:attachmentsIngestion.title')}
             {totalCount > 1 && (
-              <span className="text-sm font-normal text-muted-foreground ml-2">
+              <span className="text-sm font-normal text-muted-foreground ms-2">
                 ({currentIndex + 1} of {totalCount})
               </span>
             )}

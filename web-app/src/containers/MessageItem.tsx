@@ -629,7 +629,7 @@ export const MessageItem = memo(
                     {formatDuration(activityLabel.startedAt)}
                   </span>
                   {budget && budget.step >= budget.max - BUDGET_WARN_STEPS && (
-                    <span className="ml-auto text-muted-foreground tabular-nums">
+                    <span className="ms-auto text-muted-foreground tabular-nums">
                       {t('common:budget.steps', {
                         step: budget.step,
                         max: budget.max,

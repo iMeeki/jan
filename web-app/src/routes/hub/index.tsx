@@ -393,7 +393,7 @@ function HubContent() {
                 sortOptions.find((option) => option.value === sortSelected)
                   ?.name
               }
-              <ChevronsUpDown className="size-4 shrink-0 text-muted-foreground ml-2" />
+              <ChevronsUpDown className="size-4 shrink-0 text-muted-foreground ms-2" />
             </Button>
           </DropdownMenuTrigger>
           <DropdownMenuContent side="bottom" align="end">
@@ -440,7 +440,7 @@ function HubContent() {
     <div className="flex flex-col h-svh w-full">
       <div className="flex flex-col h-full w-full ">
         <HeaderPage>
-          <div className={cn("pr-3 py-3  h-10 w-full flex items-center justify-between relative z-20", !IS_MACOS && "pr-30")}>
+          <div className={cn("pe-3 py-3  h-10 w-full flex items-center justify-between relative z-20", !IS_MACOS && "pe-30")}>
             <div className="flex items-center gap-2 w-full">
               {isSearching ? (
                 <Loader className="shrink-0 size-4 animate-spin text-muted-foreground" />
@@ -632,7 +632,7 @@ function HubContent() {
                             {t('hub:by')}{' '}
                             {filteredModels[virtualItem.index]?.developer}
                           </span>
-                          <div className="flex items-center gap-4 ml-2">
+                          <div className="flex items-center gap-4 ms-2">
                             <div className="flex items-center gap-1">
                               <IconDownload
                                 size={18}
@@ -688,7 +688,7 @@ function HubContent() {
                           {(filteredModels[virtualItem.index].quants?.length ?? 0) >
                             1 && (
                             <button
-                              className="flex items-center gap-1 hub-show-variants-step ml-auto"
+                              className="flex items-center gap-1 hub-show-variants-step ms-auto"
                               onClick={() =>
                                 toggleModelExpansion(
                                   filteredModels[virtualItem.index]

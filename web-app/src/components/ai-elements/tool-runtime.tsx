@@ -76,7 +76,7 @@ export const ToolProgressRow = memo(
       <div className={cn('mt-2 flex flex-col gap-1', className)}>
         <div className="flex items-center gap-2 text-xs text-muted-foreground">
           <span className="min-w-0 truncate">{label}</span>
-          <span className="ml-auto shrink-0 tabular-nums">
+          <span className="ms-auto shrink-0 tabular-nums">
             {update.percent === undefined
               ? // No total means no completion fraction to show, so report the
                 // raw count the server is counting up.

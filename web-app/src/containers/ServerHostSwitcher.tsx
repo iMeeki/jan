@@ -30,7 +30,7 @@ export function ServerHostSwitcher({
       >
         <Button variant="outline" size="sm" className="w-full justify-between" title="Edit Server Host">
           {serverHost}
-          <ChevronsUpDown className="size-4 shrink-0 text-muted-foreground ml-2" />
+          <ChevronsUpDown className="size-4 shrink-0 text-muted-foreground ms-2" />
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end" className="w-24">

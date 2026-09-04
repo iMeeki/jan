@@ -458,7 +458,7 @@ function DropDrawerItem({
           !isInsideGroup && "mx-2 my-1.5 rounded-md",
           // For items in a group, don't add background but add more padding
           isInsideGroup && "bg-transparent py-4",
-          inset && "pl-8",
+          inset && "ps-8",
           variant === "destructive" && "text-destructive dark:text-destructive",
           disabled && "pointer-events-none opacity-50",
           className,
@@ -905,7 +905,7 @@ function DropDrawerSubTrigger({
           !isInsideGroup && "mx-2 my-1.5 rounded-md",
           // For items in a group, don't add background but add more padding
           isInsideGroup && "bg-transparent py-4",
-          inset && "pl-8",
+          inset && "ps-8",
           className,
         )}
         onClick={combinedOnClick}

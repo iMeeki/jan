@@ -32,9 +32,9 @@ export function SecretInput({ className, value, ...props }: SecretInputProps) {
         {...props}
         value={value}
         type={revealed ? 'text' : 'password'}
-        className={cn('pr-16', className)}
+        className={cn('pe-16', className)}
       />
-      <div className="absolute right-1.5 top-1/2 -translate-y-1/2 flex items-center gap-0.5">
+      <div className="absolute end-1.5 top-1/2 -translate-y-1/2 flex items-center gap-0.5">
         <button
           type="button"
           tabIndex={-1}

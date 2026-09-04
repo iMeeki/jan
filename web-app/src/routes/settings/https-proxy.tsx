@@ -96,11 +96,11 @@ function HTTPSProxyContent() {
                         <Input
                           type={showPassword ? 'text' : 'password'}
                           placeholder={t('settings:httpsProxy.password')}
-                          className="pr-16"
+                          className="pe-16"
                           value={proxyPassword}
                           onChange={(e) => setProxyPassword(e.target.value)}
                         />
-                        <div className="absolute right-2 top-1/2 transform -translate-y-1/2 flex items-center gap-1">
+                        <div className="absolute end-2 top-1/2 transform -translate-y-1/2 flex items-center gap-1">
                           <button
                             onClick={() => setShowPassword(!showPassword)}
                             className="p-1 rounded hover:bg-foreground/5 text-foreground/70"

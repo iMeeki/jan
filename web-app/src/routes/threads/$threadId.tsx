@@ -1712,7 +1712,7 @@ function ThreadDetail() {
   return (
     <div className="flex flex-col h-[calc(100dvh-(env(safe-area-inset-bottom)+env(safe-area-inset-top)))]">
       <HeaderPage>
-        <div className="flex items-center justify-between w-full pr-2">
+        <div className="flex items-center justify-between w-full pe-2">
           <DropdownModelProvider model={threadModel} />
         </div>
       </HeaderPage>
@@ -1834,7 +1834,7 @@ function ThreadDetail() {
                         </span>
                       </div>
                       {oomError && (
-                        <ul className="mt-2 list-disc pl-5 text-xs text-muted-foreground space-y-0.5">
+                        <ul className="mt-2 list-disc ps-5 text-xs text-muted-foreground space-y-0.5">
                           <li>Reduce context size (ctx-size)</li>
                           <li>Disable MTP (Multi-Token Prediction)</li>
                           <li>Lower n-gpu-layers or switch to a CPU backend</li>
@@ -1861,7 +1861,7 @@ function ThreadDetail() {
                           className="mt-3"
                           onClick={handleContextSizeIncrease}
                         >
-                          <IconAlertCircle className="size-4 mr-2" />
+                          <IconAlertCircle className="size-4 me-2" />
                           Increase Context Size
                         </Button>
                       ) : (
@@ -1871,7 +1871,7 @@ function ThreadDetail() {
                           className="mt-3"
                           onClick={() => handleRegenerate()}
                         >
-                          <IconRefresh className="size-4 mr-2" />
+                          <IconRefresh className="size-4 me-2" />
                           {oomError || backendError ? 'Reload' : 'Regenerate'}
                         </Button>
                       )}

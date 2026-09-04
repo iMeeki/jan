@@ -505,7 +505,7 @@ function MCPServersDesktop() {
     <Fragment>
       <div className="flex flex-col h-svh w-full">
         <HeaderPage>
-          <div className={cn("flex items-center justify-between w-full mr-2 pr-3", !IS_MACOS && "pr-30")}>
+          <div className={cn("flex items-center justify-between w-full me-2 pe-3", !IS_MACOS && "pe-30")}>
             <span className='font-medium text-base font-studio'>{t('common:settings')}</span>
             <Button variant="outline" size="sm" onClick={() => handleOpenDialog()} className="relative z-50">
               <IconPlus size={18} className="text-muted-foreground" />
@@ -562,7 +562,7 @@ function MCPServersDesktop() {
                   title={t('mcp-servers:allowPermissions')}
                   description={t('mcp-servers:allowPermissionsDesc')}
                   actions={
-                    <div className="shrink-0 ml-4">
+                    <div className="shrink-0 ms-4">
                       <Switch
                         checked={allowAllMCPPermissions}
                         onCheckedChange={setAllowAllMCPPermissions}
@@ -618,7 +618,7 @@ function MCPServersDesktop() {
                     'mcp-servers:runtimeSettings.smartToolRoutingDesc'
                   )}
                   actions={
-                    <div className="shrink-0 ml-4">
+                    <div className="shrink-0 ms-4">
                       <Switch
                         checked={settings.enableSmartToolRouting}
                         onCheckedChange={(checked) => {
@@ -644,7 +644,7 @@ function MCPServersDesktop() {
                     'mcp-servers:runtimeSettings.useLightweightRouterModelDesc'
                   )}
                   actions={
-                    <div className="shrink-0 ml-4">
+                    <div className="shrink-0 ms-4">
                       <Switch
                         checked={settings.useLightweightRouterModel}
                         disabled={!settings.enableSmartToolRouting}
@@ -843,7 +843,7 @@ function MCPServersDesktop() {
                               className="text-muted-foreground"
                             />
                           </Button>
-                          <div className="ml-2">
+                          <div className="ms-2">
                             <Switch
                               checked={config.active}
                               loading={!!loadingServers[key]}

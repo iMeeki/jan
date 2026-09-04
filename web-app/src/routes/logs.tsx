@@ -93,11 +93,11 @@ function LogsViewer() {
           ) : (
             logs.map((log, index) => (
               <div key={index} className="mb-1 flex">
-                <span className="text-muted-foreground mr-2">
+                <span className="text-muted-foreground me-2">
                   [{formatTimestamp(log.timestamp)}]
                 </span>
                 <span
-                  className={`mr-2 font-semibold ${getLogLevelColor(log.level)}`}
+                  className={`me-2 font-semibold ${getLogLevelColor(log.level)}`}
                 >
                   {log.level.toUpperCase()}
                 </span>

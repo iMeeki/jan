@@ -3,7 +3,7 @@
 version = 4
 
 [[package]]
-name = "Jan"
+name = "MixGPT"
 version = "0.8.4"
 dependencies = [
  "aes-gcm",

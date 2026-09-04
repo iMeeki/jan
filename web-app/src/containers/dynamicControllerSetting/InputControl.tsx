@@ -85,7 +85,7 @@ export function InputControl({
           size="icon-sm"
           type="button"
           aria-label="Increment"
-          className='rounded-r-md'
+          className='rounded-e-md'
           onClick={() => handleNumberAdjustment(step)}
           disabled={max !== undefined && numericValue >= max}
         >
@@ -109,10 +109,10 @@ export function InputControl({
         onChange={(e) => onChange(e.target.value)}
         className={cn(
           'w-full',
-          hasInputActions && 'pr-16'
+          hasInputActions && 'pe-16'
         )}
       />
-      <div className="absolute right-2 top-1/2 transform -translate-y-1/2 flex items-center gap-1">
+      <div className="absolute end-2 top-1/2 transform -translate-y-1/2 flex items-center gap-1">
         {hasInputActions &&
           inputActions.includes('unobscure') &&
           type === 'password' && (

@@ -394,7 +394,7 @@ function HubModelDetailContent() {
                                 }
                               />
                             </td>
-                            <td className="py-3 px-2 text-right ml-auto">
+                            <td className="py-3 px-2 text-right ms-auto">
                               {(() => {
                                 if (isDownloading && !isDownloaded) {
                                   return (

@@ -97,7 +97,7 @@ function WebSearchContent() {
                       >
                         <ProviderFavicon src={providerFavicon(provider)} />
                         <span className="truncate">{provider.label}</span>
-                        <ChevronsUpDown className="size-4 shrink-0 text-muted-foreground ml-2" />
+                        <ChevronsUpDown className="size-4 shrink-0 text-muted-foreground ms-2" />
                       </Button>
                     </DropdownMenuTrigger>
                     <DropdownMenuContent align="end" className="w-44">
@@ -162,7 +162,7 @@ function WebSearchContent() {
                       <div className="relative">
                         <Input
                           type={showKey ? 'text' : 'password'}
-                          className="w-full pr-16"
+                          className="w-full pe-16"
                           placeholder={t(
                             'settings:webSearch.apiKeyPlaceholder',
                             { provider: provider.label }
@@ -172,7 +172,7 @@ function WebSearchContent() {
                             setApiKey(provider.id, e.target.value)
                           }
                         />
-                        <div className="absolute right-2 top-1/2 transform -translate-y-1/2 flex items-center gap-1">
+                        <div className="absolute end-2 top-1/2 transform -translate-y-1/2 flex items-center gap-1">
                           <button
                             onClick={() => setShowKey(!showKey)}
                             className="p-1 rounded hover:bg-foreground/5 text-foreground/70"

@@ -99,7 +99,7 @@ export default function LlamacppBusyOnExitDialog() {
 
         {busyModels && busyModels.length > 0 && (
           <div className="bg-main-view-fg/2 p-2 border border-main-view-fg/5 rounded-lg text-sm text-main-view-fg/70 max-h-[150px] overflow-y-auto">
-            <ul className="list-disc pl-5 space-y-1 break-all">
+            <ul className="list-disc ps-5 space-y-1 break-all">
               {busyModels.map((id) => (
                 <li key={id}>{id}</li>
               ))}

@@ -117,7 +117,7 @@ export function EditMessageDialog({
                       alt={`Attached image ${index + 1}`}
                     />
                     <div
-                      className="absolute -top-1 -right-2.5 bg-destructive size-5 flex rounded-full items-center justify-center cursor-pointer"
+                      className="absolute -top-1 -end-2.5 bg-destructive size-5 flex rounded-full items-center justify-center cursor-pointer"
                       onClick={() =>
                         setKeptImages((prev) =>
                           prev.filter((_, i) => i !== index)
@@ -138,7 +138,7 @@ export function EditMessageDialog({
                       {file.name}
                     </span>
                     <div
-                      className="absolute -top-1 -right-2.5 bg-destructive size-5 flex rounded-full items-center justify-center cursor-pointer"
+                      className="absolute -top-1 -end-2.5 bg-destructive size-5 flex rounded-full items-center justify-center cursor-pointer"
                       onClick={() =>
                         setKeptFiles((prev) =>
                           prev.filter((f) => f.id !== file.id)

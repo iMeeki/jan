@@ -94,11 +94,11 @@ export function LogViewer() {
           ) : (
             logs.map((log, index) => (
               <div key={index} className="mb-1 flex">
-                <span className="text-muted-foreground mr-2 shrink-0">
+                <span className="text-muted-foreground me-2 shrink-0">
                   [{formatTimestamp(log.timestamp)}]
                 </span>
                 <span
-                  className={`mr-2 font-semibold shrink-0 ${getLogLevelColor(
+                  className={`me-2 font-semibold shrink-0 ${getLogLevelColor(
                     log.level
                   )}`}
                 >

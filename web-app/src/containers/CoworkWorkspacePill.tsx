@@ -77,7 +77,7 @@ export function CoworkWorkspacePill({
             <div className="mt-1 flex items-center gap-2">
               <Folder size={14} className="shrink-0 text-muted-foreground" />
               <span className="truncate text-sm font-medium">{folderName}</span>
-              <span className="ml-auto inline-flex shrink-0 items-center gap-1 rounded-full bg-muted px-1.5 py-0.5 text-xs font-mono text-muted-foreground">
+              <span className="ms-auto inline-flex shrink-0 items-center gap-1 rounded-full bg-muted px-1.5 py-0.5 text-xs font-mono text-muted-foreground">
                 <Lock size={10} />
                 {t('common:workspace.readOnly')}
               </span>
@@ -98,7 +98,7 @@ export function CoworkWorkspacePill({
               <Button
                 variant="ghost"
                 size="sm"
-                className="ml-auto h-7"
+                className="ms-auto h-7"
                 onClick={() => void serviceHub.opener().openPath(folder)}
               >
                 {t('common:workspace.open')}
@@ -131,7 +131,7 @@ export function CoworkWorkspacePill({
               <Button
                 variant="outline"
                 size="sm"
-                className="ml-auto"
+                className="ms-auto"
                 onClick={onAttach}
               >
                 {t('common:workspace.change')}
@@ -141,7 +141,7 @@ export function CoworkWorkspacePill({
             <Button
               variant="outline"
               size="sm"
-              className="ml-auto"
+              className="ms-auto"
               onClick={onAttach}
             >
               {t('common:workspace.attach')}

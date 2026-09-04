@@ -56,9 +56,9 @@ const getStoredLanguage = (): string => {
   try {
     const stored = localStorage.getItem(localStorageKey.settingGeneral)
     const parsed = stored ? JSON.parse(stored) : {}
-    return parsed?.state?.currentLanguage || 'en'
+    return parsed?.state?.currentLanguage || 'fa'
   } catch {
-    return 'en'
+    return 'fa'
   }
 }
 
@@ -115,10 +115,23 @@ const translate = (key: string, options: Record<string, unknown> = {}): string =
   return String(translation)
 }
 
+// RTL languages need dir="rtl" on <html> for correct text direction,
+// layout mirroring, and native scrollbar placement. Applied here (the
+// single source of truth for the active language) rather than from a
+// separately-persisted store, so it can never drift out of sync with
+// what's actually rendered.
+const RTL_LANGUAGES = ['fa']
+const applyDocumentDirection = (lng: string): void => {
+  if (typeof document === 'undefined') return
+  document.documentElement.dir = RTL_LANGUAGES.includes(lng) ? 'rtl' : 'ltr'
+  document.documentElement.lang = lng
+}
+
 // Change language function
 const changeLanguage = (lng: string): void => {
   if (i18nInstance && resources[lng]) {
     i18nInstance.language = lng
+    applyDocumentDirection(lng)
     
     // Update localStorage
     try {
@@ -135,6 +148,7 @@ const changeLanguage = (lng: string): void => {
 // Initialize i18n instance
 const initI18n = (): I18nInstance => {
   const currentLanguage = getStoredLanguage()
+  applyDocumentDirection(currentLanguage)
   
   i18nInstance = {
     language: currentLanguage,

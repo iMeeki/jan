@@ -38,7 +38,7 @@ const lineNumberTransformer: ShikiTransformer = {
         className: [
           "inline-block",
           "min-w-10",
-          "mr-4",
+          "me-4",
           "text-right",
           "text-muted-foreground",
         ],
@@ -119,12 +119,12 @@ export const CodeBlock = ({
             dangerouslySetInnerHTML={{ __html: darkHtml }}
           />
           {children && (
-            <div className="absolute top-2 right-2 flex items-center gap-2">
+            <div className="absolute top-2 end-2 flex items-center gap-2">
               {children}
             </div>
           )}
         </div>
-        {/* <CodeBlockCopyButton className="absolute top-0 right-0"/> */}
+        {/* <CodeBlockCopyButton className="absolute top-0 end-0"/> */}
       </div>
     </CodeBlockContext.Provider>
   );

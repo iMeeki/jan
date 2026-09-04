@@ -20,6 +20,9 @@ export const TranslationProvider: React.FC<{ children: ReactNode }> = ({ childre
 	// Update language when currentLanguage changes
 	useEffect(() => {
 		if (currentLanguage) {
+			// setup.ts's changeLanguage() is the single source of truth: it
+			// updates the active translations AND document dir/lang together,
+			// so they can never drift out of sync.
 			i18next.changeLanguage(currentLanguage)
 		}
 	}, [currentLanguage])

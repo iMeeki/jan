@@ -1134,7 +1134,7 @@ function ProviderDetail() {
                             {provider &&
                               (provider.provider === 'llamacpp' ||
                                 provider.provider === 'mlx') && (
-                                <div className="ml-2">
+                                <div className="ms-2">
                                   {activeModels.some(
                                     (activeModel) => activeModel === model.id
                                   ) ? (

@@ -3,8 +3,8 @@ import React from "react";
 export interface UseSidebarResizeProps {
 	/**
 	 * Direction of the resize handle
-	 * - 'left': Handle is on left side (for right-positioned panels)
-	 * - 'right': Handle is on right side (for left-positioned panels)
+	 * - 'left': Handle is on left side (for end-positioned panels)
+	 * - 'right': Handle is on right side (for start-positioned panels)
 	 */
 	direction?: "left" | "right";
 
@@ -176,8 +176,8 @@ export function useSidebarResize({
 	const isIncreasingWidth = React.useCallback(
 		(currentX: number, referenceX: number): boolean => {
 			return direction === "left"
-				? currentX < referenceX // For left-positioned handle, moving left increases width
-				: currentX > referenceX; // For right-positioned handle, moving right increases width
+				? currentX < referenceX // For start-positioned handle, moving left increases width
+				: currentX > referenceX; // For end-positioned handle, moving right increases width
 		},
 		[direction],
 	);
@@ -195,20 +195,20 @@ export function useSidebarResize({
 				const deltaX = e.clientX - initialX;
 
 				if (direction === "left") {
-					// For left-positioned handle (right panel)
+					// For start-positioned handle (right panel)
 					// Width increases as mouse moves left (negative deltaX)
 					return initialWidth - deltaX;
 				}
-				// For right-positioned handle (left panel)
+				// For end-positioned handle (left panel)
 				// Width increases as mouse moves right (positive deltaX)
 				return initialWidth + deltaX;
 			}
 			// For standard sidebars at window edges
 			if (direction === "left") {
-				// For left-positioned handle (right panel)
+				// For start-positioned handle (right panel)
 				return window.innerWidth - e.clientX;
 			}
-			// For right-positioned handle (left panel)
+			// For end-positioned handle (left panel)
 			return e.clientX;
 		},
 		[direction, isNested],

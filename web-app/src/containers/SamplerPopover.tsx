@@ -180,7 +180,7 @@ export function SamplerPopover({
               {hasOverrides && (
                 <span
                   aria-hidden
-                  className="absolute top-0.5 right-0.5 size-1.5 rounded-full bg-primary"
+                  className="absolute top-0.5 end-0.5 size-1.5 rounded-full bg-primary"
                 />
               )}
             </Button>
@@ -285,7 +285,7 @@ function AssistantHeader({
         <Button
           variant="ghost"
           size="sm"
-          className="-ml-2 h-7 px-2 gap-1 min-w-0"
+          className="-ms-2 h-7 px-2 gap-1 min-w-0"
         >
           {label}
           <IconChevronDown size={14} className="text-muted-foreground" />

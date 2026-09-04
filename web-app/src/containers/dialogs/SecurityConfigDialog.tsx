@@ -495,12 +495,12 @@ export function SecurityConfigDialog({
           >
             {isGeneratingToken ? (
               <>
-                <IconLoader2 className="animate-spin mr-2 h-4 w-4" />
+                <IconLoader2 className="animate-spin me-2 h-4 w-4" />
                 Generating...
               </>
             ) : (
               <>
-                <IconKey className="mr-2 h-4 w-4" />
+                <IconKey className="me-2 h-4 w-4" />
                 Generate New Token
               </>
             )}
@@ -525,12 +525,12 @@ export function SecurityConfigDialog({
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
                 placeholder="Enter password"
-                className="pr-10"
+                className="pe-10"
               />
               <Button
                 variant="ghost"
                 size="icon-sm"
-                className="absolute right-1 top-1/2 -translate-y-1/2"
+                className="absolute end-1 top-1/2 -translate-y-1/2"
                 onClick={() => setShowPassword(!showPassword)}
               >
                 {showPassword ? <IconEyeOff size={16} /> : <IconEye size={16} />}
@@ -564,7 +564,7 @@ export function SecurityConfigDialog({
           >
             {isSettingPassword ? (
               <>
-                <IconLoader2 className="animate-spin mr-2 h-4 w-4" />
+                <IconLoader2 className="animate-spin me-2 h-4 w-4" />
                 Setting...
               </>
             ) : (
@@ -697,7 +697,7 @@ export function SecurityConfigDialog({
             disabled={isClearingLogs || logs.length === 0}
             className="text-destructive hover:text-destructive"
           >
-            <IconTrash size={16} className="mr-1" />
+            <IconTrash size={16} className="me-1" />
             Clear
           </Button>
         </div>

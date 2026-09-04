@@ -53,7 +53,7 @@ export function FontSizeSwitcher({
           {fontSizeOptions.find(
             (item: { value: string; label: string }) => item.value === fontSize
           )?.label || t('common:medium')}
-          <ChevronsUpDown className="size-4 shrink-0 text-muted-foreground ml-2" />
+          <ChevronsUpDown className="size-4 shrink-0 text-muted-foreground ms-2" />
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end">

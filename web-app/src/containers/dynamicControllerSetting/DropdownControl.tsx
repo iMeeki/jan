@@ -49,7 +49,7 @@ export function DropdownControl({
       <DropdownMenuTrigger asChild>
         <Button variant="outline" size="sm" className="w-full justify-between" title={isSelected}>
           <span className='max-w-42 line-clamp-1'>{isSelected}</span>
-          <ChevronsUpDown className="size-4 shrink-0 text-muted-foreground ml-2" />
+          <ChevronsUpDown className="size-4 shrink-0 text-muted-foreground ms-2" />
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end" className="max-h-70">
@@ -66,7 +66,7 @@ export function DropdownControl({
           >
             <span>{option.name}</span>
             {option.installed && (
-              <span className="ml-2 shrink-0 text-xs text-muted-foreground">
+              <span className="ms-2 shrink-0 text-xs text-muted-foreground">
                 {t('providers:backendInstalled')}
               </span>
             )}

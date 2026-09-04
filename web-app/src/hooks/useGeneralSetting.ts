@@ -24,7 +24,7 @@ type GeneralSettingState = {
 export const useGeneralSetting = create<GeneralSettingState>()(
   persist(
     (set) => ({
-      currentLanguage: 'en',
+      currentLanguage: 'fa',
       spellCheckChatInput: true,
       tokenCounterCompact: true,
       autoUpdateCheck: true,

@@ -76,7 +76,7 @@ const getNavMainItems = (
     animatedIcon: MessageCircleIcon,
     onClick: onNewChat,
     shortcut: (
-      <KbdGroup className="ml-auto scale-90 gap-0">
+      <KbdGroup className="ms-auto scale-90 gap-0">
         <Kbd className="bg-transparent size-3">
           <PlatformMetaKey />
         </Kbd>
@@ -89,7 +89,7 @@ const getNavMainItems = (
     animatedIcon: BotIcon,
     onClick: onJanClaw,
     shortcut: (
-      <KbdGroup className="ml-auto scale-90 gap-0">
+      <KbdGroup className="ms-auto scale-90 gap-0">
         <Kbd className="bg-transparent size-3">
           <PlatformMetaKey />
         </Kbd>
@@ -102,7 +102,7 @@ const getNavMainItems = (
     animatedIcon: FolderPlusIcon,
     onClick: onNewProject,
     shortcut: (
-      <KbdGroup className="ml-auto scale-90 gap-0">
+      <KbdGroup className="ms-auto scale-90 gap-0">
         <Kbd className="bg-transparent size-3">
           <PlatformMetaKey />
         </Kbd>
@@ -115,7 +115,7 @@ const getNavMainItems = (
     animatedIcon: SearchIcon,
     onClick: onSearch,
     shortcut: (
-      <KbdGroup className="ml-auto scale-90 gap-0">
+      <KbdGroup className="ms-auto scale-90 gap-0">
         <Kbd className="bg-transparent size-3">
           <PlatformMetaKey />
         </Kbd>

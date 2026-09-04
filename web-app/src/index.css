@@ -60,8 +60,8 @@
   --color-main-view: var(--background);
   --color-main-view-fg: var(--foreground);
   --animate-hue-rotate: hue-rotate 4s infinite;
-  --font-studio: "StudioFeixenSans";
-  --font-sans: "Inter", sans-serif;
+  --font-studio: "Vazirmatn","StudioFeixenSans";
+  --font-sans: "Vazirmatn","Inter", sans-serif;
 
   /* Font scale based on --font-size-base */
   --text-xs: calc(var(--font-size-base) * 0.75); /* ~12px */

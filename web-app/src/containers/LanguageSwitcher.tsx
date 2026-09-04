@@ -47,7 +47,7 @@ export default function LanguageSwitcher() {
             (lang: { value: string; label: string }) =>
               lang.value === currentLanguage
           )?.label || t('common:english')}
-          <ChevronsUpDown className="size-4 shrink-0 text-muted-foreground ml-2" />
+          <ChevronsUpDown className="size-4 shrink-0 text-muted-foreground ms-2" />
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end" className="w-40">

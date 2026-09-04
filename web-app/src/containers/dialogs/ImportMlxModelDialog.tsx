@@ -247,7 +247,7 @@ export const ImportMlxModelDialog = ({
             size="sm"
             disabled={importing || !selectedPath || !modelName}
           >
-            {importing && <IconLoader2 className="mr-2 size-4 animate-spin" />}
+            {importing && <IconLoader2 className="me-2 size-4 animate-spin" />}
             {importing ? 'Importing...' : 'Import Model'}
           </Button>
         </div>

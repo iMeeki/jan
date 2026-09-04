@@ -76,7 +76,7 @@ export function CoworkSandboxChip() {
           <Button
             variant="outline"
             size="sm"
-            className="ml-auto"
+            className="ms-auto"
             disabled={checking}
             onClick={recheck}
           >

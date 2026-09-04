@@ -1,5 +1,5 @@
 export const localStorageKey = {
-  LeftPanel: 'left-panel',
+  LeftPanel: 'start-panel',
   threads: 'threads',
   messages: 'messages',
   theme: 'theme',

@@ -44,7 +44,7 @@ export function AssistantsMenu({
             <span>
               {deletedAssistant.name || 'Unnamed Assistant'} (deleted)
             </span>
-            <span className="ml-auto text-xs text-muted-foreground">✓</span>
+            <span className="ms-auto text-xs text-muted-foreground">✓</span>
           </div>
         </DropdownMenuItem>
       )}
@@ -61,7 +61,7 @@ export function AssistantsMenu({
           <span className="text-muted-foreground">—</span>
           <span>None</span>
           {noSelectedAssistant && (
-            <span className="ml-auto text-xs text-muted-foreground">✓</span>
+            <span className="ms-auto text-xs text-muted-foreground">✓</span>
           )}
         </div>
       </DropdownMenuItem>
@@ -90,7 +90,7 @@ export function AssistantsMenu({
                 />
                 <span>{assistant.name || 'Unnamed Assistant'}</span>
                 {isSelected && (
-                  <span className="ml-auto text-xs text-muted-foreground">
+                  <span className="ms-auto text-xs text-muted-foreground">
                     ✓
                   </span>
                 )}

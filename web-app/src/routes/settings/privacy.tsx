@@ -63,7 +63,7 @@ function Privacy() {
                       {t('settings:privacy.analyticsDesc')}
                     </p>
                     <p>{t('settings:privacy.privacyPromises')}</p>
-                    <ul className="list-disc pl-4 space-y-1 mt-4">
+                    <ul className="list-disc ps-4 space-y-1 mt-4">
                       <li className="font-medium">
                         {t('settings:privacy.promise1')}
                       </li>

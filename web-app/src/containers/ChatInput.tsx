@@ -2065,7 +2065,7 @@ const ChatInput = memo(function ChatInput({
                           {/* Remove button disabled while processing - outside overflow-hidden container */}
                           {!att.processing && (
                             <div
-                              className="absolute -top-1 -right-2.5 bg-destructive size-5 flex rounded-full items-center justify-center cursor-pointer"
+                              className="absolute -top-1 -end-2.5 bg-destructive size-5 flex rounded-full items-center justify-center cursor-pointer"
                               onClick={() => handleRemoveAttachment(idx)}
                             >
                               <IconX
@@ -2218,7 +2218,7 @@ const ChatInput = memo(function ChatInput({
                 {!effectiveAgentMode && (
                 <DropdownMenu>
                   <DropdownMenuTrigger asChild>
-                    <Button variant="secondary" size="icon-sm" className='rounded-full mr-2 mb-1'>
+                    <Button variant="secondary" size="icon-sm" className='rounded-full me-2 mb-1'>
                       <PlusIcon size={18} className="text-muted-foreground" />
                     </Button>
                   </DropdownMenuTrigger>
@@ -2630,7 +2630,7 @@ const ChatInput = memo(function ChatInput({
                             >
                               Default
                               {!currentEffort && (
-                                <span className="ml-auto text-xs text-muted-foreground">
+                                <span className="ms-auto text-xs text-muted-foreground">
                                   ✓
                                 </span>
                               )}
@@ -2653,7 +2653,7 @@ const ChatInput = memo(function ChatInput({
                                   )!.label
                                 }
                                 {currentEffort === key && (
-                                  <span className="ml-auto text-xs text-muted-foreground">
+                                  <span className="ms-auto text-xs text-muted-foreground">
                                     ✓
                                   </span>
                                 )}
@@ -2740,7 +2740,7 @@ const ChatInput = memo(function ChatInput({
                           <DropdownMenuItem onClick={() => setReasoning('auto')}>
                             Auto
                             {reasoningValue === 'auto' && (
-                              <span className="ml-auto text-xs text-muted-foreground">
+                              <span className="ms-auto text-xs text-muted-foreground">
                                 ✓
                               </span>
                             )}
@@ -2748,7 +2748,7 @@ const ChatInput = memo(function ChatInput({
                           <DropdownMenuItem onClick={() => setReasoning('on')}>
                             On
                             {reasoningValue === 'on' && (
-                              <span className="ml-auto text-xs text-muted-foreground">
+                              <span className="ms-auto text-xs text-muted-foreground">
                                 ✓
                               </span>
                             )}
@@ -2756,7 +2756,7 @@ const ChatInput = memo(function ChatInput({
                           <DropdownMenuItem onClick={() => setReasoning('off')}>
                             Off
                             {reasoningValue === 'off' && (
-                              <span className="ml-auto text-xs text-muted-foreground">
+                              <span className="ms-auto text-xs text-muted-foreground">
                                 ✓
                               </span>
                             )}
@@ -2841,7 +2841,7 @@ const ChatInput = memo(function ChatInput({
                     <Button
                       variant="destructive"
                       size="icon-sm"
-                      className="rounded-full mr-1 mb-1"
+                      className="rounded-full me-1 mb-1"
                       onClick={() => {
                         // Stopping with messages queued clears the queue —
                         // there is nothing to interrupt yet. The old
@@ -2873,7 +2873,7 @@ const ChatInput = memo(function ChatInput({
                   disabled={(!prompt.trim() && !hasSendableMedia) || ingestingAny}
                   data-test-id="send-message-button"
                   onClick={() => handleSendMessage(prompt)}
-                  className="rounded-full mr-1 mb-1"
+                  className="rounded-full me-1 mb-1"
                 >
                   <ArrowRight className="text-primary-fg" />
                 </Button>

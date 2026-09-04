@@ -144,7 +144,7 @@ export default function SkillsManagerDialog({
         ) : (
           <div className="flex gap-4 h-[60vh] overflow-hidden">
             {/* Skill list */}
-            <div className="w-1/3 min-h-0 flex flex-col gap-2 border-r pr-3">
+            <div className="w-1/3 min-h-0 flex flex-col gap-2 border-e pe-3">
               <Button
                 variant="outline"
                 size="sm"

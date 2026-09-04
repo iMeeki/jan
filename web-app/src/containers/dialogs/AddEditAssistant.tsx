@@ -232,7 +232,7 @@ export default function AddEditAssistant({
           </div>
 
           {nameError && (
-            <div className="ml-12 text-xs text-destructive mt-1">
+            <div className="ms-12 text-xs text-destructive mt-1">
               {nameError}
             </div>
           )}

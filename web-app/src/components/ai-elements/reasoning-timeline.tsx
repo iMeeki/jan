@@ -24,7 +24,7 @@ export const StepRow = ({
 }: StepRowProps) => (
   <li className="relative flex gap-2.5">
     {connector && (
-      <span className="absolute left-[3px] top-3.5 -bottom-2.5 border-l border-dotted border-border" />
+      <span className="absolute start-[3px] top-3.5 -bottom-2.5 border-s border-dotted border-border" />
     )}
     {marker ? (
       <span className="relative z-10 mt-1.5 flex size-1.5 shrink-0 items-center justify-center">

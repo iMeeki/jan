@@ -48,7 +48,7 @@ const DialogAppUpdater = () => {
       {appUpdateState.isUpdateAvailable && (
         <div
           className={cn(
-            'fixed z-50 bottom-3 right-3 bg-background flex items-center justify-center border rounded-lg shadow-md'
+            'fixed z-50 bottom-3 end-3 bg-background flex items-center justify-center border rounded-lg shadow-md'
           )}
         >
           <div className="px-2 py-4">

@@ -171,7 +171,7 @@ export function ChatTemplateKwargs({
           className="px-0"
           onClick={() => setAdding(true)}
         >
-          <IconPlus size={14} className="mr-1" />
+          <IconPlus size={14} className="me-1" />
           {t('common:modelSettings.templateKwargs.addCustom')}
         </Button>
       )}

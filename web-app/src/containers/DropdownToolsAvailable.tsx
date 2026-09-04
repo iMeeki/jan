@@ -122,7 +122,7 @@ export default memo(function DropdownToolsAvailable({
         className="overflow-hidden!"
         onClick={(e) => e.stopPropagation()}
       >
-        <DropDrawerLabel className="flex items-center gap-2 sticky -top-1 z-10 px-4 pl-2 py-1">
+        <DropDrawerLabel className="flex items-center gap-2 sticky -top-1 z-10 px-4 ps-2 py-1">
           Available Tools
         </DropDrawerLabel>
         <DropDrawerSeparator />
@@ -138,7 +138,7 @@ export default memo(function DropdownToolsAvailable({
                     <span className="text-sm">
                       {serverName}
                     </span>
-                    <span className="text-xs text-muted-foreground inline-flex items-center mr-1 border px-1 rounded-sm">
+                    <span className="text-xs text-muted-foreground inline-flex items-center me-1 border px-1 rounded-sm">
                       {
                         serverTools.filter((tool) => isToolChecked(tool.server, tool.name))
                           .length
@@ -149,7 +149,7 @@ export default memo(function DropdownToolsAvailable({
                 <DropDrawerSubContent className="max-w-64 max-h-70 w-full overflow-hidden">
                   <DropDrawerGroup>
                     {serverTools.length > 1 && (
-                      <div className="sticky top-0 z-10  border-b px-4 md:px-2 pr-2 py-1.5 flex items-center justify-between">
+                      <div className="sticky top-0 z-10  border-b px-4 md:px-2 pe-2 py-1.5 flex items-center justify-between">
                         <span className="text-xs font-medium">
                           All Tools
                         </span>
@@ -157,8 +157,8 @@ export default memo(function DropdownToolsAvailable({
                           className={cn(
                             'flex items-center gap-2',
                             serverTools.length > 5
-                              ? 'mr-3 md:mr-1.5'
-                              : 'mr-2 md:mr-0'
+                              ? 'me-3 md:me-1.5'
+                              : 'me-2 md:me-0'
                           )}
                         >
                           <Switch

@@ -114,7 +114,7 @@ export function CoworkTodoPanel({
                       <span className="truncate text-[11px] font-semibold uppercase tracking-wider text-main-view-fg/50">
                         {phase.name}
                       </span>
-                      <span className="ml-auto shrink-0 font-mono text-[10px] tabular-nums text-main-view-fg/35">
+                      <span className="ms-auto shrink-0 font-mono text-[10px] tabular-nums text-main-view-fg/35">
                         {phaseDone}/{phase.tasks.length}
                       </span>
                     </button>
@@ -127,7 +127,7 @@ export function CoworkTodoPanel({
                         return (
                           <li
                             key={`${phase.name}-${i}`}
-                            className="flex items-start gap-2 pl-0.5"
+                            className="flex items-start gap-2 ps-0.5"
                           >
                             <StatusDot status={task.status} />
                             <span

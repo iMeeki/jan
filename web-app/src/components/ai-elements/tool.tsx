@@ -221,7 +221,7 @@ export const ToolHeader = memo(
             {summary}
           </span>
         )}
-        <span className="ml-auto flex shrink-0 items-center gap-2">
+        <span className="ms-auto flex shrink-0 items-center gap-2">
           {queuePosition > 0 && (
             <span className="text-xs text-muted-foreground/60">
               {t('tools:toolCall.queuedPosition', { count: queuePosition })}
@@ -256,7 +256,7 @@ export const ToolContent = memo(
       )}
       {...props}
     >
-      <div className="ml-2 pl-4 border-l-2 border-dotted">
+      <div className="ms-2 ps-4 border-s-2 border-dotted">
         {children}
       </div>
     </CollapsibleContent>
@@ -290,7 +290,7 @@ export const ToolInput = memo(
           <h4 className="font-medium text-muted-foreground text-xs uppercase tracking-wide">
             {t('tools:toolCall.parameters')}
           </h4>
-          <div className="ml-auto flex items-center gap-1">
+          <div className="ms-auto flex items-center gap-1">
             {rows.length > 0 && (
               <Button
                 variant="ghost"
@@ -628,7 +628,7 @@ export const ToolOutput = memo(
           <h4 className="font-medium text-muted-foreground text-xs uppercase tracking-wide">
             {errorText ? t('tools:toolCall.error') : t('tools:toolCall.result')}
           </h4>
-          <div className="ml-auto flex items-center gap-1">
+          <div className="ms-auto flex items-center gap-1">
             {summary && (
               <Button
                 variant="ghost"
