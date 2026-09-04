@@ -1,7 +1,7 @@
 {
-  "description": "برای شروع گفتگو مدل پیشنهادی را دانلود کنید، یا در Hub مدل دیگری را جستجو کنید.",
+  "description": "برای شروع گفتگو مدل پیشنهادی را دانلود کنید، یا در مخزن مدل دیگری را جستجو کنید.",
   "quickStartFailed": "مشکلی پیش آمد. لطفاً دوباره تلاش کنید.",
-  "exploreHub": "مدل‌های دیگر را در Hub مشاهده کنید",
+  "exploreHub": "مدل‌های دیگر را در مخزن مشاهده کنید",
   "download": "دانلود",
   "modelInstalled": "نصب شد",
   "capabilityGeneral": "عمومی",
@@ -21,9 +21,9 @@
   "checkEngineGpu": "{{backend}}",
   "checkEngineCpu": "{{backend}}، در حال اجرا روی CPU",
   "checkEngineGpuUnused": "{{backend}} یک نسخه فقط-CPU است، بنابراین {{gpus}} بلااستفاده خواهد ماند. برای استفاده از آن، بک‌اند GPU را از تنظیمات انتخاب کنید.",
-  "checkEngineVendorMismatch": "{{backend}} به کارت گرافیک {{vendor}} نیاز دارد، اما MixGPT فقط {{gpus}} یافت. MixGPT روی CPU اجرا خواهد شد.",
-  "checkEngineRuntimeUnreachable": "{{backend}} نمی‌تواند به کارت گرافیک شما دسترسی پیدا کند، بنابراین MixGPT روی CPU اجرا می‌شود. معمولاً این یعنی درایور یا runtime کارت گرافیک باید به‌روزرسانی شود.",
-  "checkEngineMissingLibrary": "{{backend}} به دلیل نبود یک کتابخانه موردنیاز ({{libraries}}) نمی‌تواند شروع شود، بنابراین MixGPT روی CPU اجرا می‌شود.",
+  "checkEngineVendorMismatch": "{{backend}} به کارت گرافیک {{vendor}} نیاز دارد، اما میکس جی‌پی‌تی فقط {{gpus}} یافت. میکس جی‌پی‌تی روی CPU اجرا خواهد شد.",
+  "checkEngineRuntimeUnreachable": "{{backend}} نمی‌تواند به کارت گرافیک شما دسترسی پیدا کند، بنابراین میکس جی‌پی‌تی روی CPU اجرا می‌شود. معمولاً این یعنی درایور یا runtime کارت گرافیک باید به‌روزرسانی شود.",
+  "checkEngineMissingLibrary": "{{backend}} به دلیل نبود یک کتابخانه موردنیاز ({{libraries}}) نمی‌تواند شروع شود، بنابراین میکس جی‌پی‌تی روی CPU اجرا می‌شود.",
   "checkEngineProbeFailed": "امکان تأیید استفاده موتور از کارت گرافیک شما نبود",
   "checkEngineUnavailable": "این نسخه موتور نمی‌تواند وضعیت GPU را گزارش دهد",
   "checkSearchPreparing": "در حال دانلود مدل embedding...",
@@ -37,10 +37,10 @@
   "continueAnyway": "ادامه",
   "retryChecks": "اجرای مجدد بررسی‌ها",
   "stepCounter": "مرحله {{current}} از {{total}}",
-  "stageConsent": "به بهبود MixGPT کمک کنید",
+  "stageConsent": "به بهبود میکس جی‌پی‌تی کمک کنید",
   "skipStep": "فعلاً رد شو",
-  "welcomeTitle": "MixGPT باید روی سیستم شما راه‌اندازی شود",
-  "welcomeBody": "این کار چند دقیقه طول می‌کشد: MixGPT موتور استنتاج و یک مدل کوچک برای جستجوی فایل را دانلود می‌کند. در این مدت می‌توانید به کار با کامپیوتر خود ادامه دهید.",
+  "welcomeTitle": "میکس جی‌پی‌تی باید روی سیستم شما راه‌اندازی شود",
+  "welcomeBody": "این کار چند دقیقه طول می‌کشد: میکس جی‌پی‌تی موتور استنتاج و یک مدل کوچک برای جستجوی فایل را دانلود می‌کند. در این مدت می‌توانید به کار با کامپیوتر خود ادامه دهید.",
   "startSetup": "شروع کنیم",
   "stageSetup": "در حال راه‌اندازی موتور محلی",
   "badgeGpu": "از کارت گرافیک شما استفاده می‌شود",
@@ -49,5 +49,5 @@
   "otherWarnings": "{{count}} بررسی دیگر هم نیاز به توجه دارد.",
   "continueStep": "ادامه",
   "stageSetupDone": "موتور آماده است",
-  "setupDoneBody": "MixGPT مدل‌های محلی را با llama.cpp اجرا خواهد کرد."
+  "setupDoneBody": "میکس جی‌پی‌تی مدل‌های محلی را با llama.cpp اجرا خواهد کرد."
 }
