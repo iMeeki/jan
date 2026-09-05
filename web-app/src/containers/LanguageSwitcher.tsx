@@ -12,7 +12,8 @@ import { ChevronsUpDown } from 'lucide-react'
 
 const LANGUAGES = [
   { value: 'en', label: 'English' },
-  { value: 'es', label: 'Español' },
+  { value: 'fa', label: 'فارسی' },
+  /*{ value: 'es', label: 'Español' },
   { value: 'fr', label: 'Français' },
   { value: 'it', label: 'Italiano' },
   { value: 'hi', label: 'हिंदी' },
@@ -27,7 +28,7 @@ const LANGUAGES = [
   { value: 'ko', label: '한국어' },
   { value: 'ja', label: '日本語' },
   { value: 'ru', label: 'Русский' },
-  { value: 'ca', label: 'Català' },
+  { value: 'ca', label: 'Català' },*/
 ]
 
 export default function LanguageSwitcher() {

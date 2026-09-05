@@ -37,7 +37,7 @@
   "reportAnIssueDesc": "باگی پیدا کردید؟ با ثبت یک issue در گیت‌هاب به ما کمک کنید.",
   "reportIssue": "گزارش مشکل",
   "credits": "قدردانی",
-  "creditsDesc1": "👋 MixGPT با ❤️ توسط تیم MeekiSoft ساخته شده، بر پایه پروژه متن‌باز Jan.",
+  "creditsDesc1": "👋 MixGPT با ❤️ توسط تیم MeekiSoft ساخته شده، بر پایه پروژه متن‌باز MixGPT.",
   "creditsDesc2": "تشکر ویژه از وابستگی‌های متن‌باز ما—به‌خصوص llama.cpp و Tauri—و از انجمن فوق‌العاده هوش مصنوعی.",
   "appVersion": "نسخه برنامه",
   "dataFolder": {
@@ -323,7 +323,7 @@
     "reportAnIssueDesc": "باگی پیدا کردید؟ با ثبت یک issue در گیت‌هاب به ما کمک کنید.",
     "reportIssue": "گزارش مشکل",
     "credits": "قدردانی",
-    "creditsDesc1": "👋 MixGPT با ❤️ توسط تیم MeekiSoft ساخته شده، بر پایه پروژه متن‌باز Jan.",
+    "creditsDesc1": "👋 MixGPT با ❤️ توسط تیم MeekiSoft ساخته شده، بر پایه پروژه متن‌باز MixGPT.",
     "creditsDesc2": "تشکر ویژه از وابستگی‌های متن‌باز ما—به‌خصوص llama.cpp و Tauri—و از انجمن فوق‌العاده هوش مصنوعی."
   },
   "extensions": {

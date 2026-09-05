@@ -19,7 +19,7 @@ function Switch({ loading, className, ...props }: SwitchProps) {
       {...props}
     >
       {loading && (
-        <div className="absolute inset-0 flex items-center justify-center z-10 size-3.5 top-1/2 -translate-y-1/2 start-1/2 -translate-x-1/2">
+        <div className="absolute inset-0 flex items-center justify-center z-10 size-3.5 top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2">
           <IconLoader2 className="animate-spin text-muted-foreground" />
         </div>
       )}

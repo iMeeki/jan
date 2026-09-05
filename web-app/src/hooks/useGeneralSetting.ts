@@ -27,7 +27,7 @@ export const useGeneralSetting = create<GeneralSettingState>()(
       currentLanguage: 'fa',
       spellCheckChatInput: true,
       tokenCounterCompact: true,
-      autoUpdateCheck: true,
+      autoUpdateCheck: false,
       stripReasoningFromContext: false,
       huggingfaceToken: undefined,
       setSpellCheckChatInput: (value) => set({ spellCheckChatInput: value }),

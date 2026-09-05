@@ -342,9 +342,7 @@ pub fn run() {
                     ])
                     .build(),
             )?;
-            #[cfg(not(any(target_os = "ios", target_os = "android")))]
-            app.handle()
-                .plugin(tauri_plugin_updater::Builder::new().build())?;
+          
 
             // Start migration
             let mut store_path = get_jan_data_folder_path(app.handle().clone());
