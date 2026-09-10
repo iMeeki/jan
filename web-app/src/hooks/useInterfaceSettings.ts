@@ -16,7 +16,7 @@ export const ACCENT_COLORS = [
     name: 'Gray',
     value: 'gray',
     thumb: '#3F3F46',
-    primary: '#f17455',
+    primary: '#0085ff',
     sidebar: { light: '#f1f1f1', dark: '#171717' },
   },
   {

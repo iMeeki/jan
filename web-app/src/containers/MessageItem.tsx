@@ -355,7 +355,7 @@ export const MessageItem = memo(
       return (
         <div key={`${message.id}-${partIndex}`} className="w-full">
           {message.role === 'user' ? (
-            <div className="flex justify-end w-full h-full text-start wrap-break-word whitespace-normal">
+            <div className="flex justify-start w-full h-full text-start wrap-break-word whitespace-normal">
               <div
                 className={cn(
                   'relative p-2 rounded-md inline-block max-w-[80%]',
@@ -423,7 +423,7 @@ export const MessageItem = memo(
 
       if (isAudio && part.url) {
         const justify =
-          message.role === 'user' ? 'justify-end' : 'justify-start'
+          message.role === 'user' ? 'justify-start' : 'justify-end'
         return (
           <div
             key={`${message.id}-${partIndex}`}
@@ -440,7 +440,7 @@ export const MessageItem = memo(
 
       if (isVideo && part.url) {
         const justify =
-          message.role === 'user' ? 'justify-end' : 'justify-start'
+          message.role === 'user' ? 'justify-start' : 'justify-end'
         return (
           <div
             key={`${message.id}-${partIndex}`}
@@ -589,7 +589,7 @@ export const MessageItem = memo(
     return (
       <div
         className={cn(
-          'w-full mb-4 group/message',
+          'w-full mb-2 group/message',
           message.role === 'user' && !isFirstMessage && 'mt-8'
         )}
       >
@@ -674,7 +674,7 @@ export const MessageItem = memo(
 
         {/* Message actions for user messages */}
         {message.role === 'user' && !hideActions && (
-          <div className="flex items-center justify-end gap-1 text-muted-foreground text-xs opacity-0 transition-opacity group-hover/message:opacity-100 focus-within:opacity-100">
+          <div className="flex items-center justify-start gap-1 text-muted-foreground text-xs opacity-0 transition-opacity group-hover/message:opacity-100 focus-within:opacity-100">
             <span className="text-muted-foreground">
               {formatDate(createdAt)}
             </span>
@@ -752,10 +752,11 @@ export const MessageItem = memo(
                 )}
               </div>
 
-              <TokenSpeedIndicator
+              {/*<TokenSpeedIndicator
                 streaming={isStreaming}
                 metadata={metadata}
-              />
+              />*/}
+              
             </div>
           )}
 

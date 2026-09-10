@@ -37,8 +37,8 @@
   "reportAnIssueDesc": "Found a bug? Help us out by filing an issue on GitHub.",
   "reportIssue": "Report Issue",
   "credits": "Credits",
-  "creditsDesc1": "👋 MixGPT is built with ❤️ by the Menlo Research team.",
-  "creditsDesc2": "Special thanks to our open-source dependencies—especially llama.cpp and Tauri—and to our amazing AI community.",
+  "creditsDesc1": "👋 MixGPT is built with ❤️ by the MeekiSoft.",
+  "creditsDesc2": "",
   "appVersion": "App Version",
   "dataFolder": {
     "appData": "App Data",
@@ -85,6 +85,8 @@
     "themeDesc": "Match the OS theme.",
     "fontSize": "Font Size",
     "fontSizeDesc": "Adjust the app's font size.",
+     "accentColor": "Accent color",
+     "accentColorDes": "Customize the accent color of the application.",
     "notificationPosition": "Notification position",
     "notificationPositionDesc": "Where toast notifications appear. On Windows, the default is bottom-right so popups do not cover the window controls.",
     "notificationPositionTopRight": "Top right",
@@ -323,8 +325,8 @@
     "reportAnIssueDesc": "Found a bug? Help us out by filing an issue on GitHub.",
     "reportIssue": "Report Issue",
     "credits": "Credits",
-    "creditsDesc1": "👋 MixGPT is built with ❤️ by the Menlo Research team.",
-    "creditsDesc2": "Special thanks to our open-source dependencies—especially llama.cpp and Tauri—and to our amazing AI community."
+    "creditsDesc1": "👋 MixGPT is built with ❤️ by the MeekiSoft.",
+    "creditsDesc2": ""
   },
   "extensions": {
     "title": "Extensions"

@@ -220,11 +220,11 @@ const SettingsMenu = () => {
   ]
 
   const integrationSettings = [
-    {
-      title: 'common:mcp-servers',
-      route: route.settings.mcp_servers,
-      icon: IconTopologyStar3,
-    },
+   // {
+   //   title: 'common:mcp-servers',
+   //   route: route.settings.mcp_servers,
+   //   icon: IconTopologyStar3,
+   // },
     {
       title: 'common:claude_code',
       route: route.settings.claude_code,

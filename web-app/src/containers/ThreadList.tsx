@@ -188,10 +188,16 @@ const ThreadItem = memo(
             </SidebarMenuAction>
           </DropdownMenuTrigger>
           <DropdownMenuContent
-            className="w-48"
-            side={isMobile ? 'bottom' : 'right'}
-            align={isMobile ? 'end' : 'start'}
-          >
+  className="w-48"
+  side={
+    isMobile
+      ? 'bottom'
+      : document.documentElement.dir === 'rtl'
+        ? 'left'
+        : 'right'
+  }
+  align={isMobile ? 'end' : 'start'}
+>
             <DropdownMenuItem onSelect={() => setRenameOpen(true)}>
               <Pencil className="size-4" />
               <span>{t('common:rename')}</span>

@@ -2183,7 +2183,7 @@ const ChatInput = memo(function ChatInput({
               data-gramm_editor={spellCheckChatInput}
               data-gramm_grammarly={spellCheckChatInput}
               className={cn(
-                'bg-transparent pt-4 w-full shrink-0 border-none resize-none outline-0 px-4',
+                'bg-transparent pt-4 w-full shrink-0 border-none resize-none outline-0 px-4 text-right',
                 rows < maxRows && 'scrollbar-hide',
                 className
               )}
@@ -2283,7 +2283,7 @@ const ChatInput = memo(function ChatInput({
                       <span>
                         {ingestingDocs
                           ? 'Indexing documents…'
-                          : 'Add documents or files'}
+                          : t('common:addDocumentsOrFiles')}
                       </span>
                     </DropdownMenuItem>
                     </DropdownMenuContent>

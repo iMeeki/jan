@@ -21,7 +21,7 @@ const HeaderPage = memo(function HeaderPage({ children }: HeaderPageProps) {
   // Right-anchored controls (Windows, and Linux DEs that place them there) sit at
   // end-4 above the header — keep header content clear of them at every width.
   const rightButtons = useTitlebarLayout((s) => s.layout.right.length)
-  const rightControlsPad = rightButtons > 0 ? rightButtons * 32 + 24 : undefined
+  const rightControlsPad = rightButtons > 0 ? rightButtons * 8 : undefined
 
   return (
     <div

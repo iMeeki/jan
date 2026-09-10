@@ -1,7 +1,10 @@
 import React, { ReactNode, useEffect, useCallback } from "react"
+import { DirectionProvider } from "@radix-ui/react-direction"
 import i18next, { loadTranslations } from "./setup"
 import { useGeneralSetting } from "@/hooks/useGeneralSetting"
 import { TranslationContext } from "./context"
+
+const RTL_LANGUAGES = ["fa"]
 
 // Translation provider component
 export const TranslationProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
@@ -36,13 +39,15 @@ export const TranslationProvider: React.FC<{ children: ReactNode }> = ({ childre
 	)
 
 	return (
-		<TranslationContext.Provider
-			value={{
-				t: translate,
-				i18n: i18next,
-			}}>
-			{children}
-		</TranslationContext.Provider>
+		<DirectionProvider dir={RTL_LANGUAGES.includes(currentLanguage) ? "rtl" : "ltr"}>
+			<TranslationContext.Provider
+				value={{
+					t: translate,
+					i18n: i18next,
+				}}>
+				{children}
+			</TranslationContext.Provider>
+		</DirectionProvider>
 	)
 }
 

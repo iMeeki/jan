@@ -6,7 +6,7 @@
   "modelInstalled": "نصب شد",
   "capabilityGeneral": "عمومی",
   "capabilityMultimodal": "چندرسانه‌ای",
-  "fallbackModelName": "مدل MixGPT",
+  "fallbackModelName": "مدل Jan V3.5",
   "stageModel": "اولین مدل شما",
   "checkModelResolving": "در حال یافتن مدل پیشنهادی...",
   "checkModelWaiting": "{{model}} ({{size}}) آماده دانلود است",

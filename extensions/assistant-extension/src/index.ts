@@ -308,9 +308,9 @@ Current date: {{current_date}}`
     id: 'jan',
     object: 'assistant',
     created_at: Date.now() / 1000,
-    name: 'Jan',
+    name: 'MixGPT',
     description:
-      'Jan is a helpful desktop assistant that can reason through complex tasks and use tools to complete them on the user’s behalf.',
+      'MixGPT یک دستیار هوش مصنوعی دسکتاپ است که می‌تواند کارهای پیچیده را تحلیل و انجام دهد و با استفاده از ابزارهای مختلف، بسیاری از کارها را به جای شما انجام دهد.',
     model: '*',
     instructions: `You must output your response in the exact language used in the latest user message. Do not provide translations or switch languages unless explicitly instructed to do so. If the input is mostly English, respond in English.
 

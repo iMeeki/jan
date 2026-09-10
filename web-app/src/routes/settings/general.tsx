@@ -230,6 +230,7 @@ function General() {
                   </span>
                 }
               />
+             {/*
               {!AUTO_UPDATER_DISABLED && (
                 <>
                   <CardItem
@@ -262,6 +263,7 @@ function General() {
                   />
                 </>
               )}
+                */}
               <CardItem
                 title={t('common:language')}
                 actions={<LanguageSwitcher />}
@@ -558,7 +560,7 @@ function General() {
                 description={t('settings:general.documentationDesc')}
                 actions={
                   <a
-                    href="https://jan.ai/docs"
+                    href="https://mixgpt.ir/soft/docs"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -569,7 +571,7 @@ function General() {
                   </a>
                 }
               />
-              <CardItem
+             { /* <CardItem
                 title={t('settings:general.releaseNotes')}
                 description={t('settings:general.releaseNotesDesc')}
                 actions={
@@ -584,11 +586,11 @@ function General() {
                     </div>
                   </a>
                 }
-              />
+              /> */}
             </Card>
 
             {/* Community */}
-            <Card title={t('settings:general.community')}>
+          {/*  <Card title={t('settings:general.community')}>
               <CardItem
                 title={t('settings:general.github')}
                 description={t('settings:general.githubDesc')}
@@ -621,7 +623,7 @@ function General() {
                   </a>
                 }
               />
-            </Card>
+            </Card>*/}
 
             {/* Support */}
             <Card title={t('settings:general.support')}>

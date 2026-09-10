@@ -210,10 +210,11 @@
   "placeholder": {
     "chatInput": "Ask me anything..."
   },
+  "addDocumentsOrFiles": "Confirm",
   "confirm": "Confirm",
   "continue": "Continue",
   "loading": "Loading...",
-  "settingUpJan": "Booting up MixGPT…",
+  "settingUpJan": "...در حال بارگزاری",
   "registeringExtensions": "Registering extensions…",
   "loadingExtensions": "Loading extensions… ({{done}}/{{total}})",
   "error": "Error",

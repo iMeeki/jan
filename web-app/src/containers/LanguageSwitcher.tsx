@@ -56,7 +56,7 @@ export default function LanguageSwitcher() {
           <DropdownMenuItem
             key={lang.value}
             className={cn(
-              'cursor-pointer my-0.5',
+              'cursor-pointer my-0.5 justify-center text-center',
               currentLanguage === lang.value && 'bg-secondary-foreground/8'
             )}
             onClick={() => changeLanguage(lang.value)}

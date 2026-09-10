@@ -86,7 +86,13 @@ export const DEFAULT_EMBEDDING_UBATCH = 2048
  * definition.
  */
 export function threadCacheDir(providerPath: string): string {
-  return `${providerPath}/thread-cache`
+  // Windows extended-length paths (the `\\?\` prefix Rust's canonicalize()
+  // adds) do not tolerate a forward slash anywhere in the path -- the OS
+  // rejects the whole string with "The filename, directory name, or volume
+  // label syntax is incorrect" (error 123). Match the base path's own
+  // separator instead of hardcoding one.
+  const sep = providerPath.includes('\\') ? '\\' : '/'
+  return `${providerPath}${sep}thread-cache`
 }
 
 // Fallback context size when the user hasn't set one, to avoid loading a
