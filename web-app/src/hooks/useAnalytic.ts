@@ -37,7 +37,7 @@ export const useProductAnalyticPrompt = create<ProductAnalyticPromptState>()(
   persist(
     (set) => {
       const initialState = {
-        productAnalyticPrompt: true,
+        productAnalyticPrompt: false,
         setProductAnalyticPrompt: async (value: boolean) => {
           set(() => ({ productAnalyticPrompt: value }))
         },

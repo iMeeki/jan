@@ -128,7 +128,7 @@ export function CoworkAskCard({
                 aria-label={t('common:askPrev')}
                 className="rounded p-0.5 hover:text-main-view-fg disabled:opacity-30"
               >
-                <ChevronLeft size={14} />
+                <ChevronLeft size={14} className="rtl:-scale-x-100" />
               </button>
               <span className="px-0.5 text-xs tabular-nums">
                 {index + 1}/{questions.length}
@@ -140,7 +140,7 @@ export function CoworkAskCard({
                 aria-label={t('common:askNext')}
                 className="rounded p-0.5 hover:text-main-view-fg disabled:opacity-30"
               >
-                <ChevronRight size={14} />
+                <ChevronRight size={14} className="rtl:-scale-x-100" />
               </button>
             </>
           )}
@@ -232,7 +232,7 @@ export function CoworkAskCard({
             aria-label={isLast ? t('common:submit') : t('common:askContinue')}
             onClick={advance}
           >
-            <ArrowRight size={14} />
+            <ArrowRight size={14} className="rtl:-scale-x-100" />
           </Button>
         </div>
       </div>

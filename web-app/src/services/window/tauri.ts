@@ -97,7 +97,7 @@ export class TauriWindowService extends DefaultWindowService {
       await this.openWindow({
         url: '/logs',
         label: 'logs-app-window',
-        title: 'App Logs - Jan',
+        title: 'App Logs - MixGPT',
         width: 800,
         height: 600,
         resizable: true,

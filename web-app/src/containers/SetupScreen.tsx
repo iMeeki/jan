@@ -895,7 +895,7 @@ function SetupScreen() {
                       onClick={() => navigate({ to: route.hub.index })}
                     >
                       {t('setup:exploreHub')}
-                      <IconArrowRight size={12} />
+                      <IconArrowRight size={12} className="rtl:-scale-x-100" />
                     </button>
                   </div>
                 )}

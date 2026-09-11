@@ -210,7 +210,7 @@
   "placeholder": {
     "chatInput": "Ask me anything..."
   },
-  "addDocumentsOrFiles": "Confirm",
+  "addDocumentsOrFiles": "Add Documents or Files",
   "confirm": "Confirm",
   "continue": "Continue",
   "loading": "Loading...",
@@ -232,6 +232,7 @@
   "scrollToBottom": "Scroll to bottom",
   "generateAiResponse": "Generate AI Response",
   "continueAiResponse": "Continue with AI Response",
+  
   "addModel": {
     "title": "Add Model",
     "modelId": "Model ID",

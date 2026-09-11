@@ -505,18 +505,18 @@ function LocalAPIServerContent() {
 
               <Card>
                 <CardItem
-                  title="Server Status"
+                  title= {t('settings:localApiServer.serverStatus')} 
                   description={
                     isServerRunning ? (
                       <div className="space-y-1">
-                        <div>The server is currently running.</div>
+                        <div>{t('settings:localApiServer.serverStatusRun')} </div>
                         <div className="text-xs font-mono">
                           http://{serverHost}:{serverPort}
                           {apiPrefix}
                         </div>
                       </div>
                     ) : (
-                      'The server is stopped.'
+                      t('settings:localApiServer.serverStatusStopped')
                     )
                   }
                 />

@@ -409,7 +409,7 @@ export function DownloadManagement() {
               <div className="px-3 py-8 flex flex-col items-center justify-center text-center space-y-2">
                 <DownloadIcon className="text-muted-foreground/50 size-6" />
                 <p className="text-muted-foreground leading-normal">
-                  Your download progress <br /> will appear here
+                 پیشرفت دانلود شما<br />در اینجا نمایش داده می‌شود
                 </p>
               </div>
             )}

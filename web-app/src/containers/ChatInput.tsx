@@ -2672,16 +2672,16 @@ const ChatInput = memo(function ChatInput({
                       )
                     const label =
                       reasoningValue === 'on'
-                        ? 'On'
+                        ? 'فعال'
                         : reasoningValue === 'off'
-                          ? 'Off'
-                          : 'Auto'
+                          ? 'غیر فعال'
+                          : 'خودکار'
                     const tooltipText =
                       reasoningValue === 'on'
-                        ? 'Reasoning forced on for every request.'
+                        ? 'استدلال برای هر درخواست به‌صورت اجباری فعال است.'
                         : reasoningValue === 'off'
-                          ? 'Reasoning disabled for every request.'
-                          : "Reasoning uses the model's default."
+                          ? 'استدلال برای هر درخواست غیرفعال است.'
+                          : "استدلال از تنظیم پیش‌فرض مدل استفاده می‌کند."
 
                     // Stored as a symbolic level, not an absolute token count:
                     // the live context size (post auto-fit) is only known once
@@ -2875,7 +2875,7 @@ const ChatInput = memo(function ChatInput({
                   onClick={() => handleSendMessage(prompt)}
                   className="rounded-full me-1 mb-1"
                 >
-                  <ArrowRight className="text-primary-fg" />
+                  <ArrowRight className="text-primary-fg rtl:-scale-x-100" />
                 </Button>
               )}
             </div>

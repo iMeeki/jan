@@ -224,6 +224,9 @@
     "revealFailed": "Could not open the folder"
   },
   "localApiServer": {
+    "serverStatus": "Server Status",
+    "serverStatusRun": "The server is currently running.",
+    "serverStatusStopped": "The server is stopped.",
     "title": "Local API Server",
     "description": "Run an OpenAI-compatible server locally.",
     "startServer": "Start Server",

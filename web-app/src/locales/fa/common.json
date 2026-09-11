@@ -26,7 +26,7 @@
   "settings": "تنظیمات",
   "modelProviders": "ارائه‌دهندگان مدل",
   "localProviders": "محلی",
-  "remoteProviders": "از راه دور",
+  "remoteProviders": "آنلاین",
   "manageProviders": "مدیریت ارائه‌دهندگان",
   "hiddenProviders": "{{count}} غیرفعال",
   "hideProvider": "پنهان کردن ارائه‌دهنده",
@@ -210,6 +210,7 @@
   "placeholder": {
     "chatInput": "...پیام خود را بنویسید"
   },
+   "addDocumentsOrFiles": "پیوست فایل",
   "confirm": "تأیید",
   "continue": "ادامه",
   "loading": "در حال بارگذاری...",

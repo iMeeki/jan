@@ -407,8 +407,8 @@ function General() {
             </Card>
 
             {/* Advanced - Desktop only */}
-            <Card title="Advanced">
-              {IS_TAURI && (
+            <Card title="پیشرفته">
+              {/*IS_TAURI && (
                 <CardItem
                   title="Jan CLI"
                   description={
@@ -438,7 +438,8 @@ function General() {
                     )
                   }
                 />
-              )}
+              )*/
+              }
               <CardItem
                 title={t('settings:others.resetFactory', {
                   ns: 'settings',
